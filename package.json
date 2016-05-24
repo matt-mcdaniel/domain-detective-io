@@ -6,19 +6,23 @@
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.11.2",
+    "cheerio": "^0.20.0",
     "chokidar-socket-emitter": "^0.5.1",
     "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-sass": "^2.2.0",
     "jspm": "^0.16.32",
+    "nodemon": "^1.9.2",
     "react": "^15.1.0",
-    "react-router": "^2.0.1"
+    "react-router": "^2.0.1",
+    "request": "^2.72.0"
   },
   "scripts": {
     "start": "NODE_ENV=prod node server.js",
     "build": "NODE_ENV=prod gulp && jspm bundle-sfx app/main.js public/app.js --minify",
-    "dev": "NODE_ENV=dev gulp"
+    "dev": "NODE_ENV=dev gulp",
+    "server": "NODE_ENV=dev nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -39,6 +43,7 @@
     "configFile": "jspm.config.js",
     "dependencies": {
       "express": "npm:express@^4.13.4",
+      "json": "github:systemjs/plugin-json@^0.1.2",
       "react": "npm:react@^15.0.0",
       "react-dom": "npm:react-dom@^15.0.0",
       "react-redux": "npm:react-redux@^4.4.5",

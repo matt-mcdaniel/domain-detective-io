@@ -1,4 +1,5 @@
 var express = require('express');
+var scrape = require('./api/scrape');
 
 var app = express();
 var env = process.env.NODE_ENV || 'prod';
@@ -14,6 +15,10 @@ app.use(express.static(__dirname + '/'));
 
 app.listen(port, function (error) {
     if (!error) {
+        var url = 'https://www.orsn.org/en/tech/tld/';
+        
+        scrape.fetch(url);
+        
         console.log('Listening on port ' + port + '. In ' + env + ' mode.');
     } else {
         console.error(error);
