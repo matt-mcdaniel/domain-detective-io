@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Cambay:400,700);
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Cambay', 'Helvetica', 'Arial', sans-serif;
+  padding: 20px; }
+
 li {
   color: cornflowerblue;
   font-size: 20px; }
@@ -19,9 +27,12 @@ pre {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
 
 .domain {
+  min-width: 135px;
   margin: 15px;
   color: #fff;
   -webkit-box-flex: 1;
@@ -30,3 +41,7 @@ pre {
   text-align: center;
   padding: 15px;
   background-color: dodgerblue; }
+
+.domain-date {
+  font-weight: 300;
+  color: greenyellow; }
