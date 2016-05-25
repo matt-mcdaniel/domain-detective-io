@@ -1,3 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Cambay:400,700);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cambay', 'Helvetica', 'Arial', sans-serif;
+    padding: 20px;
+}
 li {
     color: cornflowerblue;
     font-size: 20px;
@@ -16,13 +26,20 @@ pre {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .domain {
+    min-width: 135px;
     margin: 15px;
     color: #fff;
     flex: 1;
     text-align: center;
     padding: 15px;
     background-color: dodgerblue;
+}
+
+.domain-date {
+    font-weight: 300;
+    color: greenyellow;
 }

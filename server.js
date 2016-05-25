@@ -1,8 +1,11 @@
 var express = require('express');
 var scrape = require('./api/scrape');
+var $ = require('cheerio');
+var _ = require('underscore');
 
 var app = express();
 var env = process.env.NODE_ENV || 'prod';
+var urls = require('./data/urls');
 
 var port = 3000;
 
@@ -13,11 +16,10 @@ app.get('/', function (req, res) {
 // Enable Express to get dependency scripts
 app.use(express.static(__dirname + '/'));
 
-app.listen(port, function (error) {
+app.listen(port, (error) => {
     if (!error) {
-        var url = 'https://www.orsn.org/en/tech/tld/';
         
-        scrape.fetch(url);
+        scrape.fetch(urls);
         
         console.log('Listening on port ' + port + '. In ' + env + ' mode.');
     } else {

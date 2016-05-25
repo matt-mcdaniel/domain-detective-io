@@ -5,7 +5,7 @@ import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers/index';
 import createLogger from 'redux-logger';
-import AppContainer from './components/app/AppContainer';
+import Container from './components/container/Container';
 
 const loggerMiddleware = createLogger();
 
@@ -21,11 +21,7 @@ class Root extends React.Component {
     render(){
         return (
             <Provider store={store}>
-                <Router history={browserHistory}>
-                    <Route path="/" component={AppContainer}>
-                    
-                    </Route>
-                </Router>
+                <Container />
             </Provider>
         )
     }

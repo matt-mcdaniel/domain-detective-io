@@ -4,6 +4,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var scrape = require('./api/scrape');
 
+
 var ENV = process.env.NODE_ENV;
 
 // build public/main.css
@@ -27,9 +28,6 @@ gulp.task('serve', ['styles'], function() {
     app.get('/', function(req, res) {
         res.setHeader('Access-Control-Allow-Origin', '*');
         res.setHeader('Access-Control-Allow-Credentials', 'true');
-        
-        var url = 'https://www.orsn.org/en/tech/tld/';
-        scrape.fetch(url);
         
         res.sendFile(__dirname + '/index.html');
     });

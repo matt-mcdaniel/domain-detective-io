@@ -12,17 +12,21 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-sass": "^2.2.0",
+    "isomorphic-fetch": "^2.2.1",
     "jspm": "^0.16.32",
     "nodemon": "^1.9.2",
+    "promise": "^7.1.1",
     "react": "^15.1.0",
     "react-router": "^2.0.1",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "underscore": "^1.8.3"
   },
   "scripts": {
     "start": "NODE_ENV=prod node server.js",
     "build": "NODE_ENV=prod gulp && jspm bundle-sfx app/main.js public/app.js --minify",
     "dev": "NODE_ENV=dev gulp",
-    "server": "NODE_ENV=dev nodemon server.js"
+    "server": "NODE_ENV=dev nodemon server.js",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
