@@ -1,24 +1,38 @@
 @import url(https://fonts.googleapis.com/css?family=Cambay:400,700);
-* {
-  box-sizing: border-box; }
+.filter__container {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  max-width: 500px; }
 
-body {
-  font-family: 'Cambay', 'Helvetica', 'Arial', sans-serif;
-  padding: 20px; }
+.filter__search {
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 17px 120px 19px 20px;
+  font-size: 18px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3; }
 
-li {
-  color: cornflowerblue;
-  font-size: 20px; }
+.filter__search:focus {
+  outline: none;
+  border-color: #007eff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1); }
 
-pre {
-  background-color: #fcfcfc;
-  border: 1px solid #a0a0a0;
-  text-align: center;
-  width: 30px;
-  padding: 5px;
-  color: salmon; }
+.header {
+  background-color: #FFA040;
+  margin-bottom: 30px;
+  background-color: #007eff;
+  color: #fff;
+  padding: 30px 50px 20px;
+  font-size: 30px;
+  font-weight: bold; }
+
+.domain-filter-container {
+  padding: 0 35px; }
 
 .domain-container {
+  padding: 0 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,8 +54,28 @@ pre {
           flex: 1;
   text-align: center;
   padding: 15px;
-  background-color: dodgerblue; }
+  background-color: #007eff; }
 
 .domain-date {
   font-weight: 300;
-  color: greenyellow; }
+  color: #fff; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Cambay', 'Helvetica', 'Arial', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+li {
+  color: #007eff;
+  font-size: 20px; }
+
+pre {
+  background-color: #fcfcfc;
+  border: 1px solid #a0a0a0;
+  text-align: center;
+  width: 30px;
+  padding: 5px;
+  color: #FFA040; }
