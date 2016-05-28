@@ -1,0 +1,13 @@
+$padding: 0 35px;
+
+.domain-filter-container {
+    padding: $padding;    
+}
+
+.domain-container {
+    padding: $padding;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}

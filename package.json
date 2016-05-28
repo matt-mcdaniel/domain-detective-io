@@ -16,7 +16,6 @@
     "jspm": "^0.16.32",
     "nodemon": "^1.9.2",
     "promise": "^7.1.1",
-    "react": "^15.1.0",
     "react-router": "^2.0.1",
     "request": "^2.72.0",
     "underscore": "^1.8.3"
@@ -25,7 +24,7 @@
     "start": "NODE_ENV=prod node server.js",
     "build": "NODE_ENV=prod gulp && jspm bundle-sfx app/main.js public/app.js --minify",
     "dev": "NODE_ENV=dev gulp",
-    "server": "NODE_ENV=dev nodemon server.js",
+    "fetch": "NODE_ENV=dev node ./server/fetch.js",
     "deploy": "gh-pages -d public"
   },
   "repository": {
@@ -52,6 +51,7 @@
       "react-dom": "npm:react-dom@^15.0.0",
       "react-redux": "npm:react-redux@^4.4.5",
       "react-router": "npm:react-router@^2.0.1",
+      "react-select": "npm:react-select@1.0.0-beta9",
       "redux": "npm:redux@^3.5.1",
       "redux-logger": "npm:redux-logger@^2.6.1",
       "redux-thunk": "npm:redux-thunk@^2.0.1",

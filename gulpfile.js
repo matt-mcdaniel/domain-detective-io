@@ -2,8 +2,6 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
-var scrape = require('./api/scrape');
-
 
 var ENV = process.env.NODE_ENV;
 
@@ -11,7 +9,7 @@ var ENV = process.env.NODE_ENV;
 gulp.task('styles', function() {
     console.log('Building styles...');
     
-    gulp.src('app/main.scss')
+    gulp.src(['app/main.scss'])
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(gulp.dest('public'))

@@ -1,11 +1,8 @@
 var express = require('express');
-var scrape = require('./api/scrape');
-var $ = require('cheerio');
-var _ = require('underscore');
 
 var app = express();
 var env = process.env.NODE_ENV || 'prod';
-var urls = require('./data/urls');
+var urls = require('./data/write');
 
 var port = 3000;
 
@@ -18,9 +15,6 @@ app.use(express.static(__dirname + '/'));
 
 app.listen(port, (error) => {
     if (!error) {
-        
-        scrape.fetch(urls);
-        
         console.log('Listening on port ' + port + '. In ' + env + ' mode.');
     } else {
         console.error(error);

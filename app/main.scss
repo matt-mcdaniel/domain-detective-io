@@ -1,15 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Cambay:400,700);
 
+$primary: #007eff;
+$secondary: #FFA040;
+
+@import './components/filter/_filter';
+@import './components/header/_header';
+@import './components/container/_container';
+@import './components/domain/_domain';
+
 * {
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Cambay', 'Helvetica', 'Arial', sans-serif;
-    padding: 20px;
+    padding: 0;
+    margin: 0;
 }
+
 li {
-    color: cornflowerblue;
+    color: $primary;
     font-size: 20px;
 }
 
@@ -19,27 +30,5 @@ pre {
     text-align: center;
     width: 30px;
     padding: 5px;
-    color: salmon;
-}
-
-.domain-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-.domain {
-    min-width: 135px;
-    margin: 15px;
-    color: #fff;
-    flex: 1;
-    text-align: center;
-    padding: 15px;
-    background-color: dodgerblue;
-}
-
-.domain-date {
-    font-weight: 300;
-    color: greenyellow;
+    color: $secondary;
 }
