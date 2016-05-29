@@ -1,0 +1,12 @@
+.logo {
+}
+
+.logo__container {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    
+    @media (max-width: $mobile) {
+        width: 40px;
+    }
+}

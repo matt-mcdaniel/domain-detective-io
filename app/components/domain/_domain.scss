@@ -1,14 +1,28 @@
 .domain {
     min-width: 135px;
     margin: 15px;
-    color: #fff;
+    color: #333;
     flex: 1;
     text-align: center;
     padding: 15px;
-    background-color: $primary;
+    
+    @media (max-width: $mobile) {
+        padding: 10px;
+        font-size: 12px;
+        margin: 5px;
+    }
 }
 
 .domain-date {
     font-weight: 300;
-    color: #fff;
+}
+
+.domain-container-recent .domain {
+    border: 1px solid $secondary;
+    background-color: lighten($secondary, 34%);
+}
+
+.domain-container-all .domain {
+    border: 1px solid $primary;
+    background-color: lighten($primary, 47%);
 }

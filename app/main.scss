@@ -1,20 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Cambay:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,600);
 
 $primary: #007eff;
 $secondary: #FFA040;
+$font: 'Poppins';
+$mobile: 500px;
 
 @import './components/filter/_filter';
 @import './components/header/_header';
 @import './components/container/_container';
 @import './components/domain/_domain';
+@import './components/logo/_logo';
 
 * {
     box-sizing: border-box;
 }
 
-
 body {
-    font-family: 'Cambay', 'Helvetica', 'Arial', sans-serif;
+    font-family: $font, 'Helvetica', 'Arial', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -32,3 +34,4 @@ pre {
     padding: 5px;
     color: $secondary;
 }
+

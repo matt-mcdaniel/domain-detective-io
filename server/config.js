@@ -9,7 +9,7 @@ module.exports = [
             var html = $(body).find('#tldinfo table td').text();
             
             return _.compact(html.split('.'))
-                .map((d) => d.toUpperCase().split(' '));
+                .map((d) => d.toUpperCase().split(' ')).reverse();
         }
     ],
     [

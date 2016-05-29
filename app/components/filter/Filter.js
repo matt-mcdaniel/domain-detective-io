@@ -9,7 +9,8 @@ class Filter extends React.Component {
                     ref="search" 
                     type="text" 
                     className="filter__search"
-                    placeholder="Enter a domain, word..."
+                    placeholder="Enter a domain"
+                    onChange={this.props.onSearch}
                 />
             </div>
         );

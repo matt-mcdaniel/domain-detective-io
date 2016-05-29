@@ -1,7 +1,10 @@
 .filter__container {
     padding: 0;
     margin: 0 auto 20px auto;
-    max-width: 500px;
+    
+    @media (max-width: $mobile) {
+        margin: 0 0 10px;
+    }
 }
 
 .filter__search {
@@ -13,6 +16,12 @@
     height: 60px;
     border-radius: 5px;
     border: 1px solid #d3d3d3;
+    
+    @media (max-width: $mobile) {
+        height: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
 }
 
 .filter__search:focus {

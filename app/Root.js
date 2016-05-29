@@ -9,7 +9,7 @@ import Container from './components/container/Container';
 
 const loggerMiddleware = createLogger();
 
-const store = createStore(
+export const store = createStore(
 	reducers,
 	applyMiddleware(
 		thunk,
@@ -17,7 +17,7 @@ const store = createStore(
 	)
 );
 
-class Root extends React.Component {
+export class Root extends React.Component {
     render(){
         return (
             <Provider store={store}>
@@ -26,5 +26,3 @@ class Root extends React.Component {
         )
     }
 }
-
-export default Root;

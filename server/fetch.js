@@ -18,8 +18,7 @@ function fetchText(url){
 
 Promise.all(urls.map(fetchText))
     .then((p) => {
-        console.log(p);
-        write(_.flatten(p, true));
+        write(p, true);
     });
 
 function write(arr) {

@@ -1,7 +1,7 @@
 {
   "name": "master-build",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application to discover new Top Level Domains.",
   "main": "/",
   "dependencies": {},
   "devDependencies": {
