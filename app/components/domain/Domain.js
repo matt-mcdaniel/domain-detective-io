@@ -1,5 +1,4 @@
 import React from 'react';
-import fetch from 'isomorphic-fetch';
 
 class Domain extends React.Component {
     constructor(){

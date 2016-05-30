@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
-var api = require('./server/api');
+//var api = require('./server/api');
 
 var ENV = process.env.NODE_ENV;
 
@@ -32,10 +32,10 @@ gulp.task('serve', ['styles'], function() {
     });
     
     // API
-    var fetchApi = api(app);
+    //var fetchApi = api(app);
     
     // Test Fetch
-    fetchApi.getUrl('https://api.godaddy.com/v1/domains/available?domain=example.guru');
+    //fetchApi.getUrl('https://api.godaddy.com/v1/domains/available?domain=example.guru');
     
     // directory to serve static content
     app.use('/', express.static(__dirname + '/'));
