@@ -8,7 +8,7 @@ class Header extends React.Component {
             <header className="header">
                 <Logo />
                 <div className="title">
-                    Top Level Domain Inspector
+                    Domain Detective
                 </div>
             </header>
         )

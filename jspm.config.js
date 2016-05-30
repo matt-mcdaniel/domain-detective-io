@@ -17,6 +17,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.6",
     "express": "npm:express@4.13.4",
+    "isomorphic-fetch": "npm:isomorphic-fetch@2.2.1",
     "json": "github:systemjs/plugin-json@0.1.2",
     "react": "npm:react@15.1.0",
     "react-dom": "npm:react-dom@15.0.1",

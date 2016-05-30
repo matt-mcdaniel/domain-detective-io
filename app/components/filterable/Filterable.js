@@ -2,26 +2,10 @@ import React from 'react';
 import Header from '../header/Header';
 import Domain from '../domain/Domain';
 import Filter from '../filter/Filter';
-import data from './../../../data/domains.json!json';
-import { store } from '../../Root';
+import fetch from 'isomorphic-fetch';
 
-console.log(store); 
 
-class Container extends React.Component {
-    constructor(){
-        super();
-        
-        this.onSearch = this.onSearch.bind(this);
-    }
-    
-    onSearch(e){
-        console.log(e.target);
-        // dispatch({
-        //     type: 'SEARCH',
-            
-        // })
-    }
-    
+class Filterable extends React.Component {
     render() {
         return (
             <div>
@@ -32,11 +16,13 @@ class Container extends React.Component {
                 <div className="domain-container">
                     <h1 className="domain-subheading">Recent</h1>
                     <div className="domain-container-recent">
-                        {data.domains[0].map((d,i) => <Domain key={i} domain={d} /> )}
+                        {this.props.recent.length === 0 ? <div>No Results</div> : 
+                        this.props.recent.map((d, i) => <Domain key={i} domain={d} />)}
                     </div>
                     <h1 className="domain-subheading">All</h1>
                     <div className="domain-container-all">
-                        {data.domains[1].map((d, i) => <Domain key={i} domain={d} />)}
+                        {this.props.all.length === 0 ? <div>No Results</div> : 
+                        this.props.all.map((d, i) => <Domain key={i} domain={d} />)}
                     </div>
                 </div>
             </div>
@@ -44,4 +30,4 @@ class Container extends React.Component {
     }
 }
 
-export default Container;
+export default Filterable;

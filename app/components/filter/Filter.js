@@ -1,17 +1,11 @@
 import React from 'react';
+import SearchContainer from '../search/SearchContainer';
 
 class Filter extends React.Component {
     render() {
         return (
             <div className="filter__container">
-                <input
-                    name="search"
-                    ref="search" 
-                    type="text" 
-                    className="filter__search"
-                    placeholder="Enter a domain"
-                    onChange={this.props.onSearch}
-                />
+                <SearchContainer />
             </div>
         );
     }

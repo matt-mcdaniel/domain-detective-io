@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
+var api = require('./server/api');
 
 var ENV = process.env.NODE_ENV;
 
@@ -30,6 +31,12 @@ gulp.task('serve', ['styles'], function() {
         res.sendFile(__dirname + '/index.html');
     });
     
+    // API
+    var fetchApi = api(app);
+    
+    // Test Fetch
+    fetchApi.getUrl('https://api.godaddy.com/v1/domains/available?domain=example.guru');
+    
     // directory to serve static content
     app.use('/', express.static(__dirname + '/'));
     
@@ -38,14 +45,15 @@ gulp.task('serve', ['styles'], function() {
         res.sendFile(__dirname + '/index.html');
     });
     
-    app.listen(3000, 'localhost');
+    app.listen(8080, 'localhost');
     
     browserSync.init({
+        port: 8081,
         open: false,
         reloadOnRestart: true,
         notify: false,
         proxy: {
-            target: 'http://localhost:3000'
+            target: 'http://localhost:8080'
         }
     });
     

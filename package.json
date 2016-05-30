@@ -16,6 +16,7 @@
     "jspm": "^0.16.32",
     "nodemon": "^1.9.2",
     "promise": "^7.1.1",
+    "react": "^15.1.0",
     "react-router": "^2.0.1",
     "request": "^2.72.0",
     "underscore": "^1.8.3"
@@ -46,6 +47,7 @@
     "configFile": "jspm.config.js",
     "dependencies": {
       "express": "npm:express@^4.13.4",
+      "isomorphic-fetch": "npm:isomorphic-fetch@^2.2.1",
       "json": "github:systemjs/plugin-json@^0.1.2",
       "react": "npm:react@^15.0.0",
       "react-dom": "npm:react-dom@^15.0.0",

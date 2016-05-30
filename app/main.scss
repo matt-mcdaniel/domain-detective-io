@@ -6,8 +6,9 @@ $font: 'Poppins';
 $mobile: 500px;
 
 @import './components/filter/_filter';
+@import './components/search/_search';
 @import './components/header/_header';
-@import './components/container/_container';
+@import './components/filterable/_filterable';
 @import './components/domain/_domain';
 @import './components/logo/_logo';
 
