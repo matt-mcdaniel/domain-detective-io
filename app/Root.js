@@ -21,7 +21,7 @@ export const store = createStore(
     domains,
 	applyMiddleware(
 		thunk,
-		loggerMiddleware
+		//loggerMiddleware
 	)
 );
 
