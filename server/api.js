@@ -1,5 +1,4 @@
 var fetch = require('isomorphic-fetch');
-var app = require('../server');
 
 var request = {
   type: 'GET',
