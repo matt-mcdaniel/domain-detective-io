@@ -1,23 +1,46 @@
 import data from '../../../data/domains.json!json';
+import fetch from 'isomorphic-fetch';
 
+// Actions
 const SEARCH = 'SEARCH';
 
+
+// Action Creators
+export function getAvailability(str) {
+    
+    var headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    
+    fetch('/api', {
+            method: 'POST',
+            headers: headers,
+            mode: 'cors',
+            cache: 'default',
+            body: JSON.stringify({ domain: str.toLowerCase() })
+        })
+        .then((res) => {
+            if (res.status > 400) {
+                console.log('Server Error', res.status);
+            }
+            
+            return res.json();
+        })
+        .then((json) => {
+            console.log(json);
+        });
+    
+    return (dispatch) => {
+    }
+}
+
+// Initial State
 const initialState = {
     search: '',
     recent: data.domains[0],
     all: data.domains[1]
 };
 
-export const getAvailability = (str) => {
-    console.log(str);
-    return dispatch => {
-        dispatch({
-            type: 'SEARCH',
-            text: 'test'
-        });
-    }
-}
-
+// Reducer
 export const domains = (state = initialState, action) => {
     switch(action.type) {
         case SEARCH:

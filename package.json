@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "An application to discover new Top Level Domains.",
   "main": "/",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.15.1"
+  },
   "devDependencies": {
     "browser-sync": "^2.11.2",
     "cheerio": "^0.20.0",

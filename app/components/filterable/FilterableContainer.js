@@ -13,7 +13,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         getAvailability: (str) => {
-            getAvailability(str);
+            dispatch(getAvailability(str));
         }
     }
 }

@@ -12,8 +12,9 @@ class Filterable extends React.Component {
         this.handleClick = this.handleClick.bind(this);
     }
     
-    handleClick(e){
-        this.props.getAvailability('test.ott');
+    handleClick(...args){
+        const domain = args[0];
+        this.props.getAvailability('test.' + domain[0]);
     }
     
     render() {
@@ -27,12 +28,28 @@ class Filterable extends React.Component {
                     <h1 className="domain-subheading">Recent</h1>
                     <div className="domain-container-recent">
                         {this.props.recent.length === 0 ? <div>No Results</div> : 
-                        this.props.recent.map((d, i) => <Domain handleClick={this.handleClick} key={i} domain={d} />)}
+                        this.props.recent.map((d, i) => {
+                            return (
+                                <Domain 
+                                    handleClick={this.handleClick} 
+                                    key={i} 
+                                    domain={d} 
+                                />
+                            )
+                        })}
                     </div>
                     <h1 className="domain-subheading">All</h1>
                     <div className="domain-container-all">
                         {this.props.all.length === 0 ? <div>No Results</div> : 
-                        this.props.all.map((d, i) => <Domain key={i} domain={d} />)}
+                        this.props.all.map((d, i) => {
+                            return (
+                                <Domain 
+                                    handleClick={this.handleClick} 
+                                    key={i} 
+                                    domain={d} 
+                                />
+                            )
+                        })}
                     </div>
                 </div>
             </div>
