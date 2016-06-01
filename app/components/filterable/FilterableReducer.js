@@ -8,6 +8,16 @@ const initialState = {
     all: data.domains[1]
 };
 
+export const getAvailability = (str) => {
+    console.log(str);
+    return dispatch => {
+        dispatch({
+            type: 'SEARCH',
+            text: 'test'
+        });
+    }
+}
+
 export const domains = (state = initialState, action) => {
     switch(action.type) {
         case SEARCH:

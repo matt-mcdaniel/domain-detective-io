@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Filterable from './Filterable';
+import {getAvailability} from './FilterableReducer';
 
 const mapStateToProps = (state) => {
     return {
@@ -10,7 +11,11 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {}
+    return {
+        getAvailability: (str) => {
+            getAvailability(str);
+        }
+    }
 }
 
 const FilterableContainer = connect(

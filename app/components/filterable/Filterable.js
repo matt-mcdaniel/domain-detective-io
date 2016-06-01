@@ -6,6 +6,16 @@ import fetch from 'isomorphic-fetch';
 
 
 class Filterable extends React.Component {
+    constructor() {
+        super();
+        
+        this.handleClick = this.handleClick.bind(this);
+    }
+    
+    handleClick(e){
+        this.props.getAvailability('test.ott');
+    }
+    
     render() {
         return (
             <div>
@@ -17,7 +27,7 @@ class Filterable extends React.Component {
                     <h1 className="domain-subheading">Recent</h1>
                     <div className="domain-container-recent">
                         {this.props.recent.length === 0 ? <div>No Results</div> : 
-                        this.props.recent.map((d, i) => <Domain key={i} domain={d} />)}
+                        this.props.recent.map((d, i) => <Domain handleClick={this.handleClick} key={i} domain={d} />)}
                     </div>
                     <h1 className="domain-subheading">All</h1>
                     <div className="domain-container-all">
