@@ -12,10 +12,12 @@ var requestHeaders = {
 module.exports = function(app) {
     
     app.post('/api', function(clientRequest, clientResponse) {
+        console.log('req body', clientRequest.body, Object.keys(clientRequest));
+        /*
         var domain = clientRequest.body.domain;
         var url = 'https://api.godaddy.com/v1/domains/available?domain=' + domain;
         
-        console.log(url);
+        console.log(domain, url);
         
         requestHeaders.url = url;
         
@@ -31,6 +33,7 @@ module.exports = function(app) {
                 console.log(data);
                 return clientResponse.send(JSON.stringify(data));
             })
+        */
     });
     
 };

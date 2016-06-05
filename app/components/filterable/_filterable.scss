@@ -17,7 +17,7 @@ $padding: 0 35px;
     }
 }
 
-.domain-container-recent, .domain-container-all {
+.domain-container-recent, .domain-container-novelty, .domain-container-premium {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +25,15 @@ $padding: 0 35px;
 }
 
 .domain-subheading:first-of-type {
-    color: darken($secondary, 10%);
+    color: $primary;
+}
+
+.domain-subheading:nth-of-type(2n) {
+    color: darken($primary, 10%);
 }
 
 .domain-subheading:last-of-type {
-    color: $primary;
+    color: $secondary;
 }
 
 .domain-subheading {

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,600);
+//@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,600);
 
 $primary: #007eff;
 $secondary: #FFA040;
@@ -11,6 +11,7 @@ $mobile: 500px;
 @import './components/filterable/_filterable';
 @import './components/domain/_domain';
 @import './components/logo/_logo';
+@import './components/filterOptions/_filterOptions';
 
 * {
     box-sizing: border-box;

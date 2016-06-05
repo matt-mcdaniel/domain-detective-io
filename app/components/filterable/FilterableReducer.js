@@ -1,32 +1,32 @@
 import data from '../../../data/domains.json!json';
-import fetch from 'isomorphic-fetch';
+import 'whatwg-fetch';
 
 // Actions
 const SEARCH = 'SEARCH';
 
+const request = new Request('/api', {
+    method: "POST",
+    headers: new Headers({
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+    }),
+    mode: 'cors',
+    body: JSON.stringify({ 
+        test: 'dog' 
+    })
+});
 
 // Action Creators
 export function getAvailability(str) {
     
-    var headers = new Headers();
-    headers.append('Content-Type', 'application/json');
-    
-    fetch('/api', {
-            method: 'POST',
-            headers: headers,
-            mode: 'cors',
-            cache: 'default',
-            body: JSON.stringify({ domain: str.toLowerCase() })
-        })
-        .then((res) => {
-            if (res.status > 400) {
-                console.log('Server Error', res.status);
-            }
-            
-            return res.json();
-        })
+    fetch(request)
+        .then((res) => res.json())
         .then((json) => {
+            // send response back to client
             console.log(json);
+        })
+        .catch((e) => {
+            console.warn('error', e);
         });
     
     return (dispatch) => {
@@ -36,21 +36,25 @@ export function getAvailability(str) {
 // Initial State
 const initialState = {
     search: '',
-    recent: data.domains[0],
-    all: data.domains[1]
+    topLevelOnly: false,
+    all: data.domains[0].concat(data.domains[1]),
 };
 
 // Reducer
 export const domains = (state = initialState, action) => {
     switch(action.type) {
         case SEARCH:
+            const search = action.text.toUpperCase();
             return {
                 search: action.text,
-                recent: [...initialState.recent.filter((d) => {
-                    return d[0].match(action.text.toUpperCase());
-                })],
                 all: [...initialState.all.filter((d) => {
-                    return d[0].match(action.text.toUpperCase());
+                    if (d[0].match(search)) {
+                        return true;
+                    } else if (search.match(d[0])) {
+                        return true;
+                    } else {
+                        return false;
+                    }
                 })]
             }
         default:

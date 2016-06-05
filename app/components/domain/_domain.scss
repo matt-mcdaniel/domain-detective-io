@@ -17,12 +17,18 @@
     font-weight: 300;
 }
 
-.domain-container-recent .domain {
-    border: 1px solid $secondary;
-    background-color: lighten($secondary, 34%);
+.domain-container-premium .domain {
+    border: 1px solid $primary;
+    //background-color: lighten($primary, 34%);
 }
 
-.domain-container-all .domain {
+.domain-container-recent .domain {
     border: 1px solid $primary;
-    background-color: lighten($primary, 47%);
+    background-color: lighten($secondary, 44%);
 }
+
+.domain-container-novelty .domain {
+    border: 1px solid $secondary;
+    background-color: lighten($secondary, 47%);
+}
+
