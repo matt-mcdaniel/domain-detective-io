@@ -10,24 +10,20 @@ const request = new Request('/api', {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
     }),
-    mode: 'cors',
-    body: JSON.stringify({ 
-        test: 'dog' 
-    })
+    mode: 'cors'
 });
 
 // Action Creators
 export function getAvailability(str) {
     
+    request.body = JSON.stringify({
+        domain: str.toLowerCase()
+    });
+    
+    console.log('request:', request);
+    
     fetch(request)
-        .then((res) => res.json())
-        .then((json) => {
-            // send response back to client
-            console.log(json);
-        })
-        .catch((e) => {
-            console.warn('error', e);
-        });
+        .then((res) => res.json());
     
     return (dispatch) => {
     }

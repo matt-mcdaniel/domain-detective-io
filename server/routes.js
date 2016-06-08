@@ -11,15 +11,24 @@ var requestHeaders = {
 
 module.exports = function(app) {
     
-    app.post('/api', function(clientRequest, clientResponse) {
-        console.log('req body', clientRequest.body, Object.keys(clientRequest));
-        /*
-        var domain = clientRequest.body.domain;
+    app.get('/', function(req, res) {
+        res.sendFile(__dirname + '/index.html');
+    });
+    
+    // serve index.html on refresh
+    app.route('/*').get(function(req, res) { 
+        res.sendFile(__dirname + '/index.html');
+    });
+    
+    app.post('/api', function(req, res) {
+        console.log('body: ', req.body);
+        var domain = req.body.domain;
         var url = 'https://api.godaddy.com/v1/domains/available?domain=' + domain;
         
-        console.log(domain, url);
         
         requestHeaders.url = url;
+        
+        console.log(url, req.body);
         
         fetch(url, requestHeaders)
             .then(function(response) {
@@ -30,10 +39,8 @@ module.exports = function(app) {
                 return response.json();
             })
             .then((data) => {
-                console.log(data);
-                return clientResponse.send(JSON.stringify(data));
+                return res.send(JSON.stringify(data));
             })
-        */
     });
     
 };

@@ -65,7 +65,7 @@
     .domain-container {
       padding: 0 10px; } }
 
-.domain-container-recent, .domain-container-novelty, .domain-container-premium {
+.domain-container-recent, .domain-container-novelty, .domain-container-premium, .domain-container-all {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,6 +122,10 @@
   background-color: white; }
 
 .domain-container-novelty .domain {
+  border: 1px solid #FFA040;
+  background-color: white; }
+
+.domain-container-all .domain {
   border: 1px solid #FFA040;
   background-color: white; }
 

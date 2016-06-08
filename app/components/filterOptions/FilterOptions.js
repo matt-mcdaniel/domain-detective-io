@@ -21,13 +21,6 @@ class FilterOptions extends React.Component {
                     type="checkbox" 
                     onChange={() => this.handleChange()}
                 />
-                <label className="filter-options-label" for="top-level-only" name="top-level-only">Top Level Domains Only</label>
-                <input 
-                    className="filter-options-input"
-                    ref="top-level-only" 
-                    type="checkbox" 
-                    onChange={() => this.handleChange()}
-                />
             </div>
         )
     }

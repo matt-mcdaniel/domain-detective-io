@@ -13,8 +13,7 @@ class Filterable extends React.Component {
     }
     
     handleClick(...args){
-        const domain = args[0];
-        this.props.getAvailability('test.' + domain[0]);
+        this.props.getAvailability(this.props.search + '.' + args[0]);
     }
     
     onCheckbox(obj) {

@@ -6,7 +6,7 @@ class Domain extends React.Component {
         
         return (
             <div className="domain" onClick={() => this.props.handleClick(domain)}>
-                <div >{search + '.' + domain[0].toLowerCase()}</div>
+                <div>{search + '.' + domain[0].toLowerCase()}</div>
                 {domain[1] ? <div className="domain-date">{domain[1]}</div> : '' }
             </div>
         );

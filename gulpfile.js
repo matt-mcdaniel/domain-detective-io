@@ -2,7 +2,11 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
-var api = require('./server/api');
+var routes = require('./server/routes');
+var bodyParser = require('body-parser');
+var express = require('express');
+
+var app = express();
 
 var ENV = process.env.NODE_ENV;
 
@@ -21,29 +25,17 @@ gulp.task('styles', function() {
 gulp.task('serve', ['styles'], function() {
     require('chokidar-socket-emitter')({port: 8090});
     
-    var express = require('express');
-    var app = express();
-    
-    app.get('/', function(req, res) {
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        res.setHeader('Access-Control-Allow-Credentials', 'true');
-        
-        res.sendFile(__dirname + '/index.html');
-    });
-    
-    // directory to serve static content
-    app.use('/', express.static(__dirname + '/'));
-    
-    // serve index.html on refresh
-    app.route('/*').get(function(req, res) { 
-        res.sendFile(__dirname + '/index.html');
-    });
+    app.use(bodyParser.urlencoded({ extended: true }));
+    app.use(bodyParser.json());
+
+    // Enable Express to get dependency scripts
+    app.use(express.static(__dirname + '/'));
+
+    // expose API
+    routes(app);
     
     app.listen(3000, function(err) {
         if (err) console.warn(err);
-        
-        // expose API
-        api(app);
     });
     
     browserSync.init({
