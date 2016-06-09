@@ -1,14 +1,22 @@
 import React from 'react';
+import { debounce } from 'lodash';
 
 class Search extends React.Component {
     constructor() {
         super();
         
-        this.onSearch = this.onSearch.bind(this);
+        this.state = { query: '' };
+        this.onChange = this.onChange.bind(this);
+        this.searchDebounce = debounce(this.handleDebounce, 400);
     }
     
-    onSearch(e) {
-        this.props.search(e.target.value);
+    handleDebounce() {
+        this.props.search(this.state.query);
+    }
+    
+    onChange(e) {
+        this.setState({ query: e.target.value });
+        this.searchDebounce();
     }
     
     render() {
@@ -19,7 +27,7 @@ class Search extends React.Component {
                 type="text" 
                 className="filter__search"
                 placeholder="Enter a domain"
-                onChange={this.onSearch}
+                onChange={this.onChange}
             />
         )
     }

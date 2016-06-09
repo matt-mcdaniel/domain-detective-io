@@ -19,6 +19,7 @@ System.config({
     "express": "npm:express@4.13.4",
     "isomorphic-fetch": "npm:isomorphic-fetch@2.2.1",
     "json": "github:systemjs/plugin-json@0.1.2",
+    "lodash": "npm:lodash@4.13.1",
     "react": "npm:react@15.1.0",
     "react-dom": "npm:react-dom@15.0.1",
     "react-redux": "npm:react-redux@4.4.5",
@@ -435,6 +436,10 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
     "npm:lodash@4.11.1": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:lodash@4.13.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },

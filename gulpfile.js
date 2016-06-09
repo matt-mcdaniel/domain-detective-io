@@ -3,8 +3,8 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 var routes = require('./server/routes');
-var bodyParser = require('body-parser');
 var express = require('express');
+const config = require('./server/config');
 
 var app = express();
 
@@ -19,27 +19,24 @@ gulp.task('styles', function() {
         .pipe(autoprefixer())
         .pipe(gulp.dest('public'))
         .pipe(browserSync.stream());
+        
+    browserSync.reload();
 });
 
 // watch for scss changes
 gulp.task('serve', ['styles'], function() {
     require('chokidar-socket-emitter')({port: 8090});
     
-    app.use(bodyParser.urlencoded({ extended: true }));
-    app.use(bodyParser.json());
+    config(app, '/');
 
-    // Enable Express to get dependency scripts
-    app.use(express.static(__dirname + '/'));
-
-    // expose API
     routes(app);
     
-    app.listen(3000, function(err) {
+    app.listen(3000, (err) => {
         if (err) console.warn(err);
     });
     
     browserSync.init({
-        port: 3001,
+        port: 3000,
         open: false,
         reloadOnRestart: true,
         notify: false,
@@ -48,9 +45,7 @@ gulp.task('serve', ['styles'], function() {
         }
     });
     
-    gulp.watch('app/**/*.scss', ['styles'], function() {
-        browserSync.reload();
-    });
+    gulp.watch('app/**/*.scss', ['styles']);
     
 });
 

@@ -60,12 +60,6 @@
 
 .domain-container {
   padding: 0 35px;
-  display: block; }
-  @media (max-width: 500px) {
-    .domain-container {
-      padding: 0 10px; } }
-
-.domain-container-recent, .domain-container-novelty, .domain-container-premium, .domain-container-all {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,24 +71,9 @@
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-
-.domain-subheading:first-of-type {
-  color: #007eff; }
-
-.domain-subheading:nth-of-type(2n) {
-  color: #0065cc; }
-
-.domain-subheading:last-of-type {
-  color: #FFA040; }
-
-.domain-subheading {
-  font-size: 22px;
-  padding-left: 15px;
-  font-weight: normal;
-  margin-bottom: 0; }
   @media (max-width: 500px) {
-    .domain-subheading {
-      padding-left: 5px; } }
+    .domain-container {
+      padding: 0 10px; } }
 
 .domain {
   min-width: 135px;
@@ -104,7 +83,8 @@
       -ms-flex: 1;
           flex: 1;
   text-align: center;
-  padding: 15px; }
+  padding: 15px;
+  border: 2px solid #cecece; }
   @media (max-width: 500px) {
     .domain {
       padding: 10px;
@@ -112,7 +92,8 @@
       margin: 5px; } }
 
 .domain-date {
-  font-weight: 300; }
+  font-weight: 300;
+  font-size: 11px; }
 
 .domain-container-premium .domain {
   border: 1px solid #007eff; }

@@ -2,3991 +2,4091 @@
     "domains": [
         [
             [
-                "OTT",
-                "(05/28/2016)"
+                "tdk",
+                "(06/08/2016)"
             ],
             [
-                "OLLO",
-                "(05/28/2016)"
+                "silk",
+                "(06/08/2016)"
             ],
             [
-                "LOCKER",
-                "(05/28/2016)"
+                "save",
+                "(06/08/2016)"
             ],
             [
-                "DTV",
-                "(05/28/2016)"
+                "prime",
+                "(06/08/2016)"
             ],
             [
-                "MLB",
-                "(05/26/2016)"
+                "now",
+                "(06/08/2016)"
             ],
             [
-                "SHOP",
-                "(05/24/2016)"
+                "imdb",
+                "(06/08/2016)"
             ],
             [
-                "REALESTATE",
-                "(05/24/2016)"
+                "kindle",
+                "(06/08/2016)"
+            ],
+            [
+                "epost",
+                "(06/08/2016)"
+            ],
+            [
+                "deal",
+                "(06/08/2016)"
+            ],
+            [
+                "chintai",
+                "(06/08/2016)"
+            ],
+            [
+                "fire",
+                "(06/08/2016)"
+            ],
+            [
+                "audible",
+                "(06/08/2016)"
+            ],
+            [
+                "zappos",
+                "(06/03/2016)"
+            ],
+            [
+                "pioneer",
+                "(06/03/2016)"
+            ],
+            [
+                "games",
+                "(06/03/2016)"
+            ],
+            [
+                "hisamitsu",
+                "(06/03/2016)"
+            ],
+            [
+                "dhl",
+                "(06/03/2016)"
             ]
         ],
         [
             [
-                "AAA"
+                "aaa"
             ],
             [
-                "AARP"
+                "aarp"
             ],
             [
-                "ABB"
+                "abb"
             ],
             [
-                "ABBOTT"
+                "abbott"
             ],
             [
-                "ABBVIE"
+                "abbvie"
             ],
             [
-                "ABOGADO"
+                "abogado"
             ],
             [
-                "ABUDHABI"
+                "abudhabi"
             ],
             [
-                "AC"
+                "ac"
             ],
             [
-                "ACADEMY"
+                "academy"
             ],
             [
-                "ACCENTURE"
+                "accenture"
             ],
             [
-                "ACCOUNTANT"
+                "accountant"
             ],
             [
-                "ACCOUNTANTS"
+                "accountants"
             ],
             [
-                "ACO"
+                "aco"
             ],
             [
-                "ACTIVE"
+                "active"
             ],
             [
-                "ACTOR"
+                "actor"
             ],
             [
-                "AD"
+                "ad"
             ],
             [
-                "ADAC"
+                "adac"
             ],
             [
-                "ADS"
+                "ads"
             ],
             [
-                "ADULT"
+                "adult"
             ],
             [
-                "AE"
+                "ae"
             ],
             [
-                "AEG"
+                "aeg"
             ],
             [
-                "AERO"
+                "aero"
             ],
             [
-                "AETNA"
+                "aetna"
             ],
             [
-                "AF"
+                "af"
             ],
             [
-                "AFL"
+                "afl"
             ],
             [
-                "AG"
+                "ag"
             ],
             [
-                "AGAKHAN"
+                "agakhan"
             ],
             [
-                "AGENCY"
+                "agency"
             ],
             [
-                "AI"
+                "ai"
             ],
             [
-                "AIG"
+                "aig"
             ],
             [
-                "AIRFORCE"
+                "airforce"
             ],
             [
-                "AIRTEL"
+                "airtel"
             ],
             [
-                "AKDN"
+                "akdn"
             ],
             [
-                "AL"
+                "al"
             ],
             [
-                "ALIBABA"
+                "alibaba"
             ],
             [
-                "ALIPAY"
+                "alipay"
             ],
             [
-                "ALLFINANZ"
+                "allfinanz"
             ],
             [
-                "ALLY"
+                "ally"
             ],
             [
-                "ALSACE"
+                "alsace"
             ],
             [
-                "AM"
+                "am"
             ],
             [
-                "AMICA"
+                "amica"
             ],
             [
-                "AMSTERDAM"
+                "amsterdam"
             ],
             [
-                "ANALYTICS"
+                "analytics"
             ],
             [
-                "ANDROID"
+                "android"
             ],
             [
-                "ANQUAN"
+                "anquan"
             ],
             [
-                "AO"
+                "ao"
             ],
             [
-                "APARTMENTS"
+                "apartments"
             ],
             [
-                "APP"
+                "app"
             ],
             [
-                "APPLE"
+                "apple"
             ],
             [
-                "AQ"
+                "aq"
             ],
             [
-                "AQUARELLE"
+                "aquarelle"
             ],
             [
-                "AR"
+                "ar"
             ],
             [
-                "ARAMCO"
+                "aramco"
             ],
             [
-                "ARCHI"
+                "archi"
             ],
             [
-                "ARMY"
+                "army"
             ],
             [
-                "ARPA"
+                "arpa"
             ],
             [
-                "ARTE"
+                "arte"
             ],
             [
-                "AS"
+                "as"
             ],
             [
-                "ASIA"
+                "asia"
             ],
             [
-                "ASSOCIATES"
+                "associates"
             ],
             [
-                "AT"
+                "at"
             ],
             [
-                "ATTORNEY"
+                "attorney"
             ],
             [
-                "AU"
+                "au"
             ],
             [
-                "AUCTION"
+                "auction"
             ],
             [
-                "AUDI"
+                "audi"
             ],
             [
-                "AUDIO"
+                "audible"
             ],
             [
-                "AUTHOR"
+                "audio"
             ],
             [
-                "AUTO"
+                "author"
             ],
             [
-                "AUTOS"
+                "auto"
             ],
             [
-                "AVIANCA"
+                "autos"
             ],
             [
-                "AW"
+                "avianca"
             ],
             [
-                "AWS"
+                "aw"
             ],
             [
-                "AX"
+                "aws"
             ],
             [
-                "AXA"
+                "ax"
             ],
             [
-                "AZ"
+                "axa"
             ],
             [
-                "AZURE"
+                "az"
             ],
             [
-                "BA"
+                "azure"
             ],
             [
-                "BABY"
+                "ba"
             ],
             [
-                "BAIDU"
+                "baby"
             ],
             [
-                "BAND"
+                "baidu"
             ],
             [
-                "BANK"
+                "band"
             ],
             [
-                "BAR"
+                "bank"
             ],
             [
-                "BARCELONA"
+                "bar"
             ],
             [
-                "BARCLAYCARD"
+                "barcelona"
             ],
             [
-                "BARCLAYS"
+                "barclaycard"
             ],
             [
-                "BAREFOOT"
+                "barclays"
             ],
             [
-                "BARGAINS"
+                "barefoot"
             ],
             [
-                "BAUHAUS"
+                "bargains"
             ],
             [
-                "BAYERN"
+                "bauhaus"
             ],
             [
-                "BB"
+                "bayern"
             ],
             [
-                "BBC"
+                "bb"
             ],
             [
-                "BBVA"
+                "bbc"
             ],
             [
-                "BCG"
+                "bbva"
             ],
             [
-                "BCN"
+                "bcg"
             ],
             [
-                "BD"
+                "bcn"
             ],
             [
-                "BE"
+                "bd"
             ],
             [
-                "BEATS"
+                "be"
             ],
             [
-                "BEER"
+                "beats"
             ],
             [
-                "BENTLEY"
+                "beer"
             ],
             [
-                "BERLIN"
+                "bentley"
             ],
             [
-                "BEST"
+                "berlin"
             ],
             [
-                "BET"
+                "best"
             ],
             [
-                "BF"
+                "bet"
             ],
             [
-                "BG"
+                "bf"
             ],
             [
-                "BH"
+                "bg"
             ],
             [
-                "BHARTI"
+                "bh"
             ],
             [
-                "BI"
+                "bharti"
             ],
             [
-                "BIBLE"
+                "bi"
             ],
             [
-                "BID"
+                "bible"
             ],
             [
-                "BIKE"
+                "bid"
             ],
             [
-                "BING"
+                "bike"
             ],
             [
-                "BINGO"
+                "bing"
             ],
             [
-                "BIO"
+                "bingo"
             ],
             [
-                "BIZ"
+                "bio"
             ],
             [
-                "BJ"
+                "biz"
             ],
             [
-                "BLACK"
+                "bj"
             ],
             [
-                "BLACKFRIDAY"
+                "black"
             ],
             [
-                "BLOG"
+                "blackfriday"
             ],
             [
-                "BLOOMBERG"
+                "blog"
             ],
             [
-                "BLUE"
+                "bloomberg"
             ],
             [
-                "BM"
+                "blue"
             ],
             [
-                "BMS"
+                "bm"
             ],
             [
-                "BMW"
+                "bms"
             ],
             [
-                "BN"
+                "bmw"
             ],
             [
-                "BNL"
+                "bn"
             ],
             [
-                "BNPPARIBAS"
+                "bnl"
             ],
             [
-                "BO"
+                "bnpparibas"
             ],
             [
-                "BOATS"
+                "bo"
             ],
             [
-                "BOEHRINGER"
+                "boats"
             ],
             [
-                "BOM"
+                "boehringer"
             ],
             [
-                "BOND"
+                "bom"
             ],
             [
-                "BOO"
+                "bond"
             ],
             [
-                "BOOK"
+                "boo"
             ],
             [
-                "BOOTS"
+                "book"
             ],
             [
-                "BOSCH"
+                "boots"
             ],
             [
-                "BOSTIK"
+                "bosch"
             ],
             [
-                "BOT"
+                "bostik"
             ],
             [
-                "BOUTIQUE"
+                "bot"
             ],
             [
-                "BR"
+                "boutique"
             ],
             [
-                "BRADESCO"
+                "br"
             ],
             [
-                "BRIDGESTONE"
+                "bradesco"
             ],
             [
-                "BROADWAY"
+                "bridgestone"
             ],
             [
-                "BROKER"
+                "broadway"
             ],
             [
-                "BROTHER"
+                "broker"
             ],
             [
-                "BRUSSELS"
+                "brother"
             ],
             [
-                "BS"
+                "brussels"
             ],
             [
-                "BT"
+                "bs"
             ],
             [
-                "BUDAPEST"
+                "bt"
             ],
             [
-                "BUGATTI"
+                "budapest"
             ],
             [
-                "BUILD"
+                "bugatti"
             ],
             [
-                "BUILDERS"
+                "build"
             ],
             [
-                "BUSINESS"
+                "builders"
             ],
             [
-                "BUY"
+                "business"
             ],
             [
-                "BUZZ"
+                "buy"
             ],
             [
-                "BV"
+                "buzz"
             ],
             [
-                "BW"
+                "bv"
             ],
             [
-                "BY"
+                "bw"
             ],
             [
-                "BZ"
+                "by"
             ],
             [
-                "BZH"
+                "bz"
             ],
             [
-                "CA"
+                "bzh"
             ],
             [
-                "CAB"
+                "ca"
             ],
             [
-                "CAFE"
+                "cab"
             ],
             [
-                "CAL"
+                "cafe"
             ],
             [
-                "CALL"
+                "cal"
             ],
             [
-                "CAMERA"
+                "call"
             ],
             [
-                "CAMP"
+                "camera"
             ],
             [
-                "CANCERRESEARCH"
+                "camp"
             ],
             [
-                "CANON"
+                "cancerresearch"
             ],
             [
-                "CAPETOWN"
+                "canon"
             ],
             [
-                "CAPITAL"
+                "capetown"
             ],
             [
-                "CAR"
+                "capital"
             ],
             [
-                "CARAVAN"
+                "car"
             ],
             [
-                "CARDS"
+                "caravan"
             ],
             [
-                "CARE"
+                "cards"
             ],
             [
-                "CAREER"
+                "care"
             ],
             [
-                "CAREERS"
+                "career"
             ],
             [
-                "CARS"
+                "careers"
             ],
             [
-                "CARTIER"
+                "cars"
             ],
             [
-                "CASA"
+                "cartier"
             ],
             [
-                "CASH"
+                "casa"
             ],
             [
-                "CASINO"
+                "cash"
             ],
             [
-                "CAT"
+                "casino"
             ],
             [
-                "CATERING"
+                "cat"
             ],
             [
-                "CBA"
+                "catering"
             ],
             [
-                "CBN"
+                "cba"
             ],
             [
-                "CC"
+                "cbn"
             ],
             [
-                "CD"
+                "cc"
             ],
             [
-                "CEB"
+                "cd"
             ],
             [
-                "CENTER"
+                "ceb"
             ],
             [
-                "CEO"
+                "center"
             ],
             [
-                "CERN"
+                "ceo"
             ],
             [
-                "CF"
+                "cern"
             ],
             [
-                "CFA"
+                "cf"
             ],
             [
-                "CFD"
+                "cfa"
             ],
             [
-                "CG"
+                "cfd"
             ],
             [
-                "CH"
+                "cg"
             ],
             [
-                "CHANEL"
+                "ch"
             ],
             [
-                "CHANNEL"
+                "chanel"
             ],
             [
-                "CHASE"
+                "channel"
             ],
             [
-                "CHAT"
+                "chase"
             ],
             [
-                "CHEAP"
+                "chat"
             ],
             [
-                "CHLOE"
+                "cheap"
             ],
             [
-                "CHRISTMAS"
+                "chintai"
             ],
             [
-                "CHROME"
+                "chloe"
             ],
             [
-                "CHURCH"
+                "christmas"
             ],
             [
-                "CI"
+                "chrome"
             ],
             [
-                "CIPRIANI"
+                "church"
             ],
             [
-                "CIRCLE"
+                "ci"
             ],
             [
-                "CISCO"
+                "cipriani"
             ],
             [
-                "CITIC"
+                "circle"
             ],
             [
-                "CITY"
+                "cisco"
             ],
             [
-                "CITYEATS"
+                "citic"
             ],
             [
-                "CK"
+                "city"
             ],
             [
-                "CL"
+                "cityeats"
             ],
             [
-                "CLAIMS"
+                "ck"
             ],
             [
-                "CLEANING"
+                "cl"
             ],
             [
-                "CLICK"
+                "claims"
             ],
             [
-                "CLINIC"
+                "cleaning"
             ],
             [
-                "CLINIQUE"
+                "click"
             ],
             [
-                "CLOTHING"
+                "clinic"
             ],
             [
-                "CLOUD"
+                "clinique"
             ],
             [
-                "CLUB"
+                "clothing"
             ],
             [
-                "CLUBMED"
+                "cloud"
             ],
             [
-                "CM"
+                "club"
             ],
             [
-                "CN"
+                "clubmed"
             ],
             [
-                "CO"
+                "cm"
             ],
             [
-                "COACH"
+                "cn"
             ],
             [
-                "CODES"
+                "co"
             ],
             [
-                "COFFEE"
+                "coach"
             ],
             [
-                "COLLEGE"
+                "codes"
             ],
             [
-                "COLOGNE"
+                "coffee"
             ],
             [
-                "COM"
+                "college"
             ],
             [
-                "COMMBANK"
+                "cologne"
             ],
             [
-                "COMMUNITY"
+                "com"
             ],
             [
-                "COMPANY"
+                "commbank"
             ],
             [
-                "COMPARE"
+                "community"
             ],
             [
-                "COMPUTER"
+                "company"
             ],
             [
-                "COMSEC"
+                "compare"
             ],
             [
-                "CONDOS"
+                "computer"
             ],
             [
-                "CONSTRUCTION"
+                "comsec"
             ],
             [
-                "CONSULTING"
+                "condos"
             ],
             [
-                "CONTACT"
+                "construction"
             ],
             [
-                "CONTRACTORS"
+                "consulting"
             ],
             [
-                "COOKING"
+                "contact"
             ],
             [
-                "COOL"
+                "contractors"
             ],
             [
-                "COOP"
+                "cooking"
             ],
             [
-                "CORSICA"
+                "cool"
             ],
             [
-                "COUNTRY"
+                "coop"
             ],
             [
-                "COUPON"
+                "corsica"
             ],
             [
-                "COUPONS"
+                "country"
             ],
             [
-                "COURSES"
+                "coupon"
             ],
             [
-                "CR"
+                "coupons"
             ],
             [
-                "CREDIT"
+                "courses"
             ],
             [
-                "CREDITCARD"
+                "cr"
             ],
             [
-                "CREDITUNION"
+                "credit"
             ],
             [
-                "CRICKET"
+                "creditcard"
             ],
             [
-                "CROWN"
+                "creditunion"
             ],
             [
-                "CRS"
+                "cricket"
             ],
             [
-                "CRUISES"
+                "crown"
             ],
             [
-                "CSC"
+                "crs"
             ],
             [
-                "CU"
+                "cruises"
             ],
             [
-                "CUISINELLA"
+                "csc"
             ],
             [
-                "CV"
+                "cu"
             ],
             [
-                "CW"
+                "cuisinella"
             ],
             [
-                "CX"
+                "cv"
             ],
             [
-                "CY"
+                "cw"
             ],
             [
-                "CYMRU"
+                "cx"
             ],
             [
-                "CYOU"
+                "cy"
             ],
             [
-                "CZ"
+                "cymru"
             ],
             [
-                "DABUR"
+                "cyou"
             ],
             [
-                "DAD"
+                "cz"
             ],
             [
-                "DANCE"
+                "dabur"
             ],
             [
-                "DATE"
+                "dad"
             ],
             [
-                "DATING"
+                "dance"
             ],
             [
-                "DATSUN"
+                "date"
             ],
             [
-                "DAY"
+                "dating"
             ],
             [
-                "DCLK"
+                "datsun"
             ],
             [
-                "DDS"
+                "day"
             ],
             [
-                "DE"
+                "dclk"
             ],
             [
-                "DEALER"
+                "dds"
             ],
             [
-                "DEALS"
+                "de"
             ],
             [
-                "DEGREE"
+                "deal"
             ],
             [
-                "DELIVERY"
+                "dealer"
             ],
             [
-                "DELL"
+                "deals"
             ],
             [
-                "DELOITTE"
+                "degree"
             ],
             [
-                "DELTA"
+                "delivery"
             ],
             [
-                "DEMOCRAT"
+                "dell"
             ],
             [
-                "DENTAL"
+                "deloitte"
             ],
             [
-                "DENTIST"
+                "delta"
             ],
             [
-                "DESI"
+                "democrat"
             ],
             [
-                "DESIGN"
+                "dental"
             ],
             [
-                "DEV"
+                "dentist"
             ],
             [
-                "DIAMONDS"
+                "desi"
             ],
             [
-                "DIET"
+                "design"
             ],
             [
-                "DIGITAL"
+                "dev"
             ],
             [
-                "DIRECT"
+                "dhl"
             ],
             [
-                "DIRECTORY"
+                "diamonds"
             ],
             [
-                "DISCOUNT"
+                "diet"
             ],
             [
-                "DJ"
+                "digital"
             ],
             [
-                "DK"
+                "direct"
             ],
             [
-                "DM"
+                "directory"
             ],
             [
-                "DNP"
+                "discount"
             ],
             [
-                "DO"
+                "dj"
             ],
             [
-                "DOCS"
+                "dk"
             ],
             [
-                "DOG"
+                "dm"
             ],
             [
-                "DOHA"
+                "dnp"
             ],
             [
-                "DOMAINS"
+                "do"
             ],
             [
-                "DOT"
+                "docs"
             ],
             [
-                "DOWNLOAD"
+                "dog"
             ],
             [
-                "DRIVE"
+                "doha"
             ],
             [
-                "DTV"
+                "domains"
             ],
             [
-                "DUBAI"
+                "dot"
             ],
             [
-                "DURBAN"
+                "download"
             ],
             [
-                "DVAG"
+                "drive"
             ],
             [
-                "DZ"
+                "dtv"
             ],
             [
-                "EARTH"
+                "dubai"
             ],
             [
-                "EAT"
+                "durban"
             ],
             [
-                "EC"
+                "dvag"
             ],
             [
-                "EDEKA"
+                "dz"
             ],
             [
-                "EDU"
+                "earth"
             ],
             [
-                "EDUCATION"
+                "eat"
             ],
             [
-                "EE"
+                "ec"
             ],
             [
-                "EG"
+                "edeka"
             ],
             [
-                "EMAIL"
+                "edu"
             ],
             [
-                "EMERCK"
+                "education"
             ],
             [
-                "ENERGY"
+                "ee"
             ],
             [
-                "ENGINEER"
+                "eg"
             ],
             [
-                "ENGINEERING"
+                "email"
             ],
             [
-                "ENTERPRISES"
+                "emerck"
             ],
             [
-                "EPSON"
+                "energy"
             ],
             [
-                "EQUIPMENT"
+                "engineer"
             ],
             [
-                "ER"
+                "engineering"
             ],
             [
-                "ERNI"
+                "enterprises"
             ],
             [
-                "ES"
+                "epost"
             ],
             [
-                "ESQ"
+                "epson"
             ],
             [
-                "ESTATE"
+                "equipment"
             ],
             [
-                "ET"
+                "er"
             ],
             [
-                "EU"
+                "erni"
             ],
             [
-                "EUROVISION"
+                "es"
             ],
             [
-                "EUS"
+                "esq"
             ],
             [
-                "EVENTS"
+                "estate"
             ],
             [
-                "EVERBANK"
+                "et"
             ],
             [
-                "EXCHANGE"
+                "eu"
             ],
             [
-                "EXPERT"
+                "eurovision"
             ],
             [
-                "EXPOSED"
+                "eus"
             ],
             [
-                "EXPRESS"
+                "events"
             ],
             [
-                "EXTRASPACE"
+                "everbank"
             ],
             [
-                "FAGE"
+                "exchange"
             ],
             [
-                "FAIL"
+                "expert"
             ],
             [
-                "FAIRWINDS"
+                "exposed"
             ],
             [
-                "FAITH"
+                "express"
             ],
             [
-                "FAMILY"
+                "extraspace"
             ],
             [
-                "FAN"
+                "fage"
             ],
             [
-                "FANS"
+                "fail"
             ],
             [
-                "FARM"
+                "fairwinds"
             ],
             [
-                "FASHION"
+                "faith"
             ],
             [
-                "FAST"
+                "family"
             ],
             [
-                "FEEDBACK"
+                "fan"
             ],
             [
-                "FERRERO"
+                "fans"
             ],
             [
-                "FI"
+                "farm"
             ],
             [
-                "FILM"
+                "fashion"
             ],
             [
-                "FINAL"
+                "fast"
             ],
             [
-                "FINANCE"
+                "feedback"
             ],
             [
-                "FINANCIAL"
+                "ferrero"
             ],
             [
-                "FIRESTONE"
+                "fi"
             ],
             [
-                "FIRMDALE"
+                "film"
             ],
             [
-                "FISH"
+                "final"
             ],
             [
-                "FISHING"
+                "finance"
             ],
             [
-                "FIT"
+                "financial"
             ],
             [
-                "FITNESS"
+                "fire"
             ],
             [
-                "FJ"
+                "firestone"
             ],
             [
-                "FK"
+                "firmdale"
             ],
             [
-                "FLICKR"
+                "fish"
             ],
             [
-                "FLIGHTS"
+                "fishing"
             ],
             [
-                "FLIR"
+                "fit"
             ],
             [
-                "FLORIST"
+                "fitness"
             ],
             [
-                "FLOWERS"
+                "fj"
             ],
             [
-                "FLSMIDTH"
+                "fk"
             ],
             [
-                "FLY"
+                "flickr"
             ],
             [
-                "FM"
+                "flights"
             ],
             [
-                "FO"
+                "flir"
             ],
             [
-                "FOO"
+                "florist"
             ],
             [
-                "FOOTBALL"
+                "flowers"
             ],
             [
-                "FORD"
+                "flsmidth"
             ],
             [
-                "FOREX"
+                "fly"
             ],
             [
-                "FORSALE"
+                "fm"
             ],
             [
-                "FORUM"
+                "fo"
             ],
             [
-                "FOUNDATION"
+                "foo"
             ],
             [
-                "FOX"
+                "football"
             ],
             [
-                "FR"
+                "ford"
             ],
             [
-                "FRESENIUS"
+                "forex"
             ],
             [
-                "FRL"
+                "forsale"
             ],
             [
-                "FROGANS"
+                "forum"
             ],
             [
-                "FRONTIER"
+                "foundation"
             ],
             [
-                "FTR"
+                "fox"
             ],
             [
-                "FUND"
+                "fr"
             ],
             [
-                "FURNITURE"
+                "fresenius"
             ],
             [
-                "FUTBOL"
+                "frl"
             ],
             [
-                "FYI"
+                "frogans"
             ],
             [
-                "GA"
+                "frontier"
             ],
             [
-                "GAL"
+                "ftr"
             ],
             [
-                "GALLERY"
+                "fund"
             ],
             [
-                "GALLO"
+                "furniture"
             ],
             [
-                "GALLUP"
+                "futbol"
             ],
             [
-                "GAME"
+                "fyi"
             ],
             [
-                "GARDEN"
+                "ga"
             ],
             [
-                "GB"
+                "gal"
             ],
             [
-                "GBIZ"
+                "gallery"
             ],
             [
-                "GD"
+                "gallo"
             ],
             [
-                "GDN"
+                "gallup"
             ],
             [
-                "GE"
+                "game"
             ],
             [
-                "GEA"
+                "games"
             ],
             [
-                "GENT"
+                "garden"
             ],
             [
-                "GENTING"
+                "gb"
             ],
             [
-                "GF"
+                "gbiz"
             ],
             [
-                "GG"
+                "gd"
             ],
             [
-                "GGEE"
+                "gdn"
             ],
             [
-                "GH"
+                "ge"
             ],
             [
-                "GI"
+                "gea"
             ],
             [
-                "GIFT"
+                "gent"
             ],
             [
-                "GIFTS"
+                "genting"
             ],
             [
-                "GIVES"
+                "gf"
             ],
             [
-                "GIVING"
+                "gg"
             ],
             [
-                "GL"
+                "ggee"
             ],
             [
-                "GLASS"
+                "gh"
             ],
             [
-                "GLE"
+                "gi"
             ],
             [
-                "GLOBAL"
+                "gift"
             ],
             [
-                "GLOBO"
+                "gifts"
             ],
             [
-                "GM"
+                "gives"
             ],
             [
-                "GMAIL"
+                "giving"
             ],
             [
-                "GMBH"
+                "gl"
             ],
             [
-                "GMO"
+                "glass"
             ],
             [
-                "GMX"
+                "gle"
             ],
             [
-                "GN"
+                "global"
             ],
             [
-                "GOLD"
+                "globo"
             ],
             [
-                "GOLDPOINT"
+                "gm"
             ],
             [
-                "GOLF"
+                "gmail"
             ],
             [
-                "GOO"
+                "gmbh"
             ],
             [
-                "GOOG"
+                "gmo"
             ],
             [
-                "GOOGLE"
+                "gmx"
             ],
             [
-                "GOP"
+                "gn"
             ],
             [
-                "GOT"
+                "gold"
             ],
             [
-                "GOV"
+                "goldpoint"
             ],
             [
-                "GP"
+                "golf"
             ],
             [
-                "GQ"
+                "goo"
             ],
             [
-                "GR"
+                "goog"
             ],
             [
-                "GRAINGER"
+                "google"
             ],
             [
-                "GRAPHICS"
+                "gop"
             ],
             [
-                "GRATIS"
+                "got"
             ],
             [
-                "GREEN"
+                "gov"
             ],
             [
-                "GRIPE"
+                "gp"
             ],
             [
-                "GROUP"
+                "gq"
             ],
             [
-                "GS"
+                "gr"
             ],
             [
-                "GT"
+                "grainger"
             ],
             [
-                "GU"
+                "graphics"
             ],
             [
-                "GUARDIAN"
+                "gratis"
             ],
             [
-                "GUCCI"
+                "green"
             ],
             [
-                "GUGE"
+                "gripe"
             ],
             [
-                "GUIDE"
+                "group"
             ],
             [
-                "GUITARS"
+                "gs"
             ],
             [
-                "GURU"
+                "gt"
             ],
             [
-                "GW"
+                "gu"
             ],
             [
-                "GY"
+                "guardian"
             ],
             [
-                "HAMBURG"
+                "gucci"
             ],
             [
-                "HANGOUT"
+                "guge"
             ],
             [
-                "HAUS"
+                "guide"
             ],
             [
-                "HDFCBANK"
+                "guitars"
             ],
             [
-                "HEALTH"
+                "guru"
             ],
             [
-                "HEALTHCARE"
+                "gw"
             ],
             [
-                "HELP"
+                "gy"
             ],
             [
-                "HELSINKI"
+                "hamburg"
             ],
             [
-                "HERE"
+                "hangout"
             ],
             [
-                "HERMES"
+                "haus"
             ],
             [
-                "HIPHOP"
+                "hdfcbank"
             ],
             [
-                "HITACHI"
+                "health"
             ],
             [
-                "HIV"
+                "healthcare"
             ],
             [
-                "HK"
+                "help"
             ],
             [
-                "HKT"
+                "helsinki"
             ],
             [
-                "HM"
+                "here"
             ],
             [
-                "HN"
+                "hermes"
             ],
             [
-                "HOCKEY"
+                "hiphop"
             ],
             [
-                "HOLDINGS"
+                "hisamitsu"
             ],
             [
-                "HOLIDAY"
+                "hitachi"
             ],
             [
-                "HOMEDEPOT"
+                "hiv"
             ],
             [
-                "HOMES"
+                "hk"
             ],
             [
-                "HONDA"
+                "hkt"
             ],
             [
-                "HORSE"
+                "hm"
             ],
             [
-                "HOST"
+                "hn"
             ],
             [
-                "HOSTING"
+                "hockey"
             ],
             [
-                "HOTELES"
+                "holdings"
             ],
             [
-                "HOTMAIL"
+                "holiday"
             ],
             [
-                "HOUSE"
+                "homedepot"
             ],
             [
-                "HOW"
+                "homes"
             ],
             [
-                "HR"
+                "honda"
             ],
             [
-                "HSBC"
+                "horse"
             ],
             [
-                "HT"
+                "host"
             ],
             [
-                "HTC"
+                "hosting"
             ],
             [
-                "HU"
+                "hoteles"
             ],
             [
-                "HYUNDAI"
+                "hotmail"
             ],
             [
-                "IBM"
+                "house"
             ],
             [
-                "ICBC"
+                "how"
             ],
             [
-                "ICE"
+                "hr"
             ],
             [
-                "ICU"
+                "hsbc"
             ],
             [
-                "ID"
+                "ht"
             ],
             [
-                "IE"
+                "htc"
             ],
             [
-                "IFM"
+                "hu"
             ],
             [
-                "IINET"
+                "hyundai"
             ],
             [
-                "IL"
+                "ibm"
             ],
             [
-                "IM"
+                "icbc"
             ],
             [
-                "IMAMAT"
+                "ice"
             ],
             [
-                "IMMO"
+                "icu"
             ],
             [
-                "IMMOBILIEN"
+                "id"
             ],
             [
-                "IN"
+                "ie"
             ],
             [
-                "INDUSTRIES"
+                "ifm"
             ],
             [
-                "INFINITI"
+                "iinet"
             ],
             [
-                "INFO"
+                "il"
             ],
             [
-                "ING"
+                "im"
             ],
             [
-                "INK"
+                "imamat"
             ],
             [
-                "INSTITUTE"
+                "imdb"
             ],
             [
-                "INSURANCE"
+                "immo"
             ],
             [
-                "INSURE"
+                "immobilien"
             ],
             [
-                "INT"
+                "in"
             ],
             [
-                "INTERNATIONAL"
+                "industries"
             ],
             [
-                "INVESTMENTS"
+                "infiniti"
             ],
             [
-                "IO"
+                "info"
             ],
             [
-                "IPIRANGA"
+                "ing"
             ],
             [
-                "IQ"
+                "ink"
             ],
             [
-                "IR"
+                "institute"
             ],
             [
-                "IRISH"
+                "insurance"
             ],
             [
-                "IS"
+                "insure"
             ],
             [
-                "ISELECT"
+                "int"
             ],
             [
-                "ISMAILI"
+                "international"
             ],
             [
-                "IST"
+                "investments"
             ],
             [
-                "ISTANBUL"
+                "io"
             ],
             [
-                "IT"
+                "ipiranga"
             ],
             [
-                "ITAU"
+                "iq"
             ],
             [
-                "IWC"
+                "ir"
             ],
             [
-                "JAGUAR"
+                "irish"
             ],
             [
-                "JAVA"
+                "is"
             ],
             [
-                "JCB"
+                "iselect"
             ],
             [
-                "JCP"
+                "ismaili"
             ],
             [
-                "JE"
+                "ist"
             ],
             [
-                "JETZT"
+                "istanbul"
             ],
             [
-                "JEWELRY"
+                "it"
             ],
             [
-                "JLC"
+                "itau"
             ],
             [
-                "JLL"
+                "iwc"
             ],
             [
-                "JM"
+                "jaguar"
             ],
             [
-                "JMP"
+                "java"
             ],
             [
-                "JNJ"
+                "jcb"
             ],
             [
-                "JO"
+                "jcp"
             ],
             [
-                "JOBS"
+                "je"
             ],
             [
-                "JOBURG"
+                "jetzt"
             ],
             [
-                "JOT"
+                "jewelry"
             ],
             [
-                "JOY"
+                "jlc"
             ],
             [
-                "JP"
+                "jll"
             ],
             [
-                "JPMORGAN"
+                "jm"
             ],
             [
-                "JPRS"
+                "jmp"
             ],
             [
-                "JUEGOS"
+                "jnj"
             ],
             [
-                "KAUFEN"
+                "jo"
             ],
             [
-                "KDDI"
+                "jobs"
             ],
             [
-                "KE"
+                "joburg"
             ],
             [
-                "KERRYHOTELS"
+                "jot"
             ],
             [
-                "KERRYLOGISTICS"
+                "joy"
             ],
             [
-                "KERRYPROPERTIES"
+                "jp"
             ],
             [
-                "KFH"
+                "jpmorgan"
             ],
             [
-                "KG"
+                "jprs"
             ],
             [
-                "KH"
+                "juegos"
             ],
             [
-                "KI"
+                "kaufen"
             ],
             [
-                "KIA"
+                "kddi"
             ],
             [
-                "KIM"
+                "ke"
             ],
             [
-                "KINDER"
+                "kerryhotels"
             ],
             [
-                "KITCHEN"
+                "kerrylogistics"
             ],
             [
-                "KIWI"
+                "kerryproperties"
             ],
             [
-                "KM"
+                "kfh"
             ],
             [
-                "KN"
+                "kg"
             ],
             [
-                "KOELN"
+                "kh"
             ],
             [
-                "KOMATSU"
+                "ki"
             ],
             [
-                "KP"
+                "kia"
             ],
             [
-                "KPMG"
+                "kim"
             ],
             [
-                "KPN"
+                "kinder"
             ],
             [
-                "KR"
+                "kindle"
             ],
             [
-                "KRD"
+                "kitchen"
             ],
             [
-                "KRED"
+                "kiwi"
             ],
             [
-                "KUOKGROUP"
+                "km"
             ],
             [
-                "KW"
+                "kn"
             ],
             [
-                "KY"
+                "koeln"
             ],
             [
-                "KYOTO"
+                "komatsu"
             ],
             [
-                "KZ"
+                "kp"
             ],
             [
-                "LA"
+                "kpmg"
             ],
             [
-                "LACAIXA"
+                "kpn"
             ],
             [
-                "LAMBORGHINI"
+                "kr"
             ],
             [
-                "LAMER"
+                "krd"
             ],
             [
-                "LANCASTER"
+                "kred"
             ],
             [
-                "LAND"
+                "kuokgroup"
             ],
             [
-                "LANDROVER"
+                "kw"
             ],
             [
-                "LANXESS"
+                "ky"
             ],
             [
-                "LASALLE"
+                "kyoto"
             ],
             [
-                "LAT"
+                "kz"
             ],
             [
-                "LATROBE"
+                "la"
             ],
             [
-                "LAW"
+                "lacaixa"
             ],
             [
-                "LAWYER"
+                "lamborghini"
             ],
             [
-                "LB"
+                "lamer"
             ],
             [
-                "LC"
+                "lancaster"
             ],
             [
-                "LDS"
+                "land"
             ],
             [
-                "LEASE"
+                "landrover"
             ],
             [
-                "LECLERC"
+                "lanxess"
             ],
             [
-                "LEGAL"
+                "lasalle"
             ],
             [
-                "LEXUS"
+                "lat"
             ],
             [
-                "LGBT"
+                "latrobe"
             ],
             [
-                "LI"
+                "law"
             ],
             [
-                "LIAISON"
+                "lawyer"
             ],
             [
-                "LIDL"
+                "lb"
             ],
             [
-                "LIFE"
+                "lc"
             ],
             [
-                "LIFEINSURANCE"
+                "lds"
             ],
             [
-                "LIFESTYLE"
+                "lease"
             ],
             [
-                "LIGHTING"
+                "leclerc"
             ],
             [
-                "LIKE"
+                "legal"
             ],
             [
-                "LIMITED"
+                "lexus"
             ],
             [
-                "LIMO"
+                "lgbt"
             ],
             [
-                "LINCOLN"
+                "li"
             ],
             [
-                "LINDE"
+                "liaison"
             ],
             [
-                "LINK"
+                "lidl"
             ],
             [
-                "LIPSY"
+                "life"
             ],
             [
-                "LIVE"
+                "lifeinsurance"
             ],
             [
-                "LIVING"
+                "lifestyle"
             ],
             [
-                "LIXIL"
+                "lighting"
             ],
             [
-                "LK"
+                "like"
             ],
             [
-                "LOAN"
+                "limited"
             ],
             [
-                "LOANS"
+                "limo"
             ],
             [
-                "LOCKER"
+                "lincoln"
             ],
             [
-                "LOCUS"
+                "linde"
             ],
             [
-                "LOL"
+                "link"
             ],
             [
-                "LONDON"
+                "lipsy"
             ],
             [
-                "LOTTE"
+                "live"
             ],
             [
-                "LOTTO"
+                "living"
             ],
             [
-                "LOVE"
+                "lixil"
             ],
             [
-                "LR"
+                "lk"
             ],
             [
-                "LS"
+                "loan"
             ],
             [
-                "LT"
+                "loans"
             ],
             [
-                "LTD"
+                "locker"
             ],
             [
-                "LTDA"
+                "locus"
             ],
             [
-                "LU"
+                "lol"
             ],
             [
-                "LUPIN"
+                "london"
             ],
             [
-                "LUXE"
+                "lotte"
             ],
             [
-                "LUXURY"
+                "lotto"
             ],
             [
-                "LV"
+                "love"
             ],
             [
-                "LY"
+                "lr"
             ],
             [
-                "MA"
+                "ls"
             ],
             [
-                "MADRID"
+                "lt"
             ],
             [
-                "MAIF"
+                "ltd"
             ],
             [
-                "MAISON"
+                "ltda"
             ],
             [
-                "MAKEUP"
+                "lu"
             ],
             [
-                "MAN"
+                "lupin"
             ],
             [
-                "MANAGEMENT"
+                "luxe"
             ],
             [
-                "MANGO"
+                "luxury"
             ],
             [
-                "MARKET"
+                "lv"
             ],
             [
-                "MARKETING"
+                "ly"
             ],
             [
-                "MARKETS"
+                "ma"
             ],
             [
-                "MARRIOTT"
+                "madrid"
             ],
             [
-                "MBA"
+                "maif"
             ],
             [
-                "MC"
+                "maison"
             ],
             [
-                "MD"
+                "makeup"
             ],
             [
-                "ME"
+                "man"
             ],
             [
-                "MED"
+                "management"
             ],
             [
-                "MEDIA"
+                "mango"
             ],
             [
-                "MEET"
+                "market"
             ],
             [
-                "MELBOURNE"
+                "marketing"
             ],
             [
-                "MEME"
+                "markets"
             ],
             [
-                "MEMORIAL"
+                "marriott"
             ],
             [
-                "MEN"
+                "mattel"
             ],
             [
-                "MENU"
+                "mba"
             ],
             [
-                "MEO"
+                "mc"
             ],
             [
-                "METLIFE"
+                "md"
             ],
             [
-                "MG"
+                "me"
             ],
             [
-                "MH"
+                "med"
             ],
             [
-                "MIAMI"
+                "media"
             ],
             [
-                "MICROSOFT"
+                "meet"
             ],
             [
-                "MIL"
+                "melbourne"
             ],
             [
-                "MINI"
+                "meme"
             ],
             [
-                "MK"
+                "memorial"
             ],
             [
-                "ML"
+                "men"
             ],
             [
-                "MLB"
+                "menu"
             ],
             [
-                "MLS"
+                "meo"
             ],
             [
-                "MM"
+                "metlife"
             ],
             [
-                "MMA"
+                "mg"
             ],
             [
-                "MN"
+                "mh"
             ],
             [
-                "MO"
+                "miami"
             ],
             [
-                "MOBI"
+                "microsoft"
             ],
             [
-                "MOBILY"
+                "mil"
             ],
             [
-                "MODA"
+                "mini"
             ],
             [
-                "MOE"
+                "mk"
             ],
             [
-                "MOI"
+                "ml"
             ],
             [
-                "MOM"
+                "mlb"
             ],
             [
-                "MONASH"
+                "mls"
             ],
             [
-                "MONEY"
+                "mm"
             ],
             [
-                "MONTBLANC"
+                "mma"
             ],
             [
-                "MORMON"
+                "mn"
             ],
             [
-                "MORTGAGE"
+                "mo"
             ],
             [
-                "MOSCOW"
+                "mobi"
             ],
             [
-                "MOTORCYCLES"
+                "mobily"
             ],
             [
-                "MOV"
+                "moda"
             ],
             [
-                "MOVIE"
+                "moe"
             ],
             [
-                "MOVISTAR"
+                "moi"
             ],
             [
-                "MP"
+                "mom"
             ],
             [
-                "MQ"
+                "monash"
             ],
             [
-                "MR"
+                "money"
             ],
             [
-                "MS"
+                "montblanc"
             ],
             [
-                "MT"
+                "mormon"
             ],
             [
-                "MTN"
+                "mortgage"
             ],
             [
-                "MTPC"
+                "moscow"
             ],
             [
-                "MTR"
+                "motorcycles"
             ],
             [
-                "MU"
+                "mov"
             ],
             [
-                "MUSEUM"
+                "movie"
             ],
             [
-                "MUTUAL"
+                "movistar"
             ],
             [
-                "MUTUELLE"
+                "mp"
             ],
             [
-                "MV"
+                "mq"
             ],
             [
-                "MW"
+                "mr"
             ],
             [
-                "MX"
+                "ms"
             ],
             [
-                "MY"
+                "mt"
             ],
             [
-                "MZ"
+                "mtn"
             ],
             [
-                "NA"
+                "mtpc"
             ],
             [
-                "NADEX"
+                "mtr"
             ],
             [
-                "NAGOYA"
+                "mu"
             ],
             [
-                "NAME"
+                "museum"
             ],
             [
-                "NATURA"
+                "mutual"
             ],
             [
-                "NAVY"
+                "mutuelle"
             ],
             [
-                "NC"
+                "mv"
             ],
             [
-                "NE"
+                "mw"
             ],
             [
-                "NEC"
+                "mx"
             ],
             [
-                "NET"
+                "my"
             ],
             [
-                "NETBANK"
+                "mz"
             ],
             [
-                "NETWORK"
+                "na"
             ],
             [
-                "NEUSTAR"
+                "nadex"
             ],
             [
-                "NEW"
+                "nagoya"
             ],
             [
-                "NEWS"
+                "name"
             ],
             [
-                "NEXT"
+                "natura"
             ],
             [
-                "NEXTDIRECT"
+                "navy"
             ],
             [
-                "NEXUS"
+                "nc"
             ],
             [
-                "NF"
+                "ne"
             ],
             [
-                "NG"
+                "nec"
             ],
             [
-                "NGO"
+                "net"
             ],
             [
-                "NHK"
+                "netbank"
             ],
             [
-                "NI"
+                "netflix"
             ],
             [
-                "NICO"
+                "network"
             ],
             [
-                "NIKON"
+                "neustar"
             ],
             [
-                "NINJA"
+                "new"
             ],
             [
-                "NISSAN"
+                "news"
             ],
             [
-                "NISSAY"
+                "next"
             ],
             [
-                "NL"
+                "nextdirect"
             ],
             [
-                "NO"
+                "nexus"
             ],
             [
-                "NOKIA"
+                "nf"
             ],
             [
-                "NORTHWESTERNMUTUAL"
+                "ng"
             ],
             [
-                "NORTON"
+                "ngo"
             ],
             [
-                "NOWRUZ"
+                "nhk"
             ],
             [
-                "NOWTV"
+                "ni"
             ],
             [
-                "NP"
+                "nico"
             ],
             [
-                "NR"
+                "nikon"
             ],
             [
-                "NRA"
+                "ninja"
             ],
             [
-                "NRW"
+                "nissan"
             ],
             [
-                "NTT"
+                "nissay"
             ],
             [
-                "NU"
+                "nl"
             ],
             [
-                "NYC"
+                "no"
             ],
             [
-                "NZ"
+                "nokia"
             ],
             [
-                "OBI"
+                "northwesternmutual"
             ],
             [
-                "OFFICE"
+                "norton"
             ],
             [
-                "OKINAWA"
+                "now"
             ],
             [
-                "OLAYAN"
+                "nowruz"
             ],
             [
-                "OLAYANGROUP"
+                "nowtv"
             ],
             [
-                "OLLO"
+                "np"
             ],
             [
-                "OM"
+                "nr"
             ],
             [
-                "OMEGA"
+                "nra"
             ],
             [
-                "ONE"
+                "nrw"
             ],
             [
-                "ONG"
+                "ntt"
             ],
             [
-                "ONL"
+                "nu"
             ],
             [
-                "ONLINE"
+                "nyc"
             ],
             [
-                "OOO"
+                "nz"
             ],
             [
-                "ORACLE"
+                "obi"
             ],
             [
-                "ORANGE"
+                "office"
             ],
             [
-                "ORG"
+                "okinawa"
             ],
             [
-                "ORGANIC"
+                "olayan"
             ],
             [
-                "ORIGINS"
+                "olayangroup"
             ],
             [
-                "OSAKA"
+                "ollo"
             ],
             [
-                "OTSUKA"
+                "om"
             ],
             [
-                "OTT"
+                "omega"
             ],
             [
-                "OVH"
+                "one"
             ],
             [
-                "PA"
+                "ong"
             ],
             [
-                "PAGE"
+                "onl"
             ],
             [
-                "PAMPEREDCHEF"
+                "online"
             ],
             [
-                "PANERAI"
+                "ooo"
             ],
             [
-                "PARIS"
+                "oracle"
             ],
             [
-                "PARS"
+                "orange"
             ],
             [
-                "PARTNERS"
+                "org"
             ],
             [
-                "PARTS"
+                "organic"
             ],
             [
-                "PARTY"
+                "origins"
             ],
             [
-                "PASSAGENS"
+                "osaka"
             ],
             [
-                "PCCW"
+                "otsuka"
             ],
             [
-                "PE"
+                "ott"
             ],
             [
-                "PET"
+                "ovh"
             ],
             [
-                "PF"
+                "pa"
             ],
             [
-                "PG"
+                "page"
             ],
             [
-                "PH"
+                "pamperedchef"
             ],
             [
-                "PHARMACY"
+                "panerai"
             ],
             [
-                "PHILIPS"
+                "paris"
             ],
             [
-                "PHOTO"
+                "pars"
             ],
             [
-                "PHOTOGRAPHY"
+                "partners"
             ],
             [
-                "PHOTOS"
+                "parts"
             ],
             [
-                "PHYSIO"
+                "party"
             ],
             [
-                "PIAGET"
+                "passagens"
             ],
             [
-                "PICS"
+                "pccw"
             ],
             [
-                "PICTET"
+                "pe"
             ],
             [
-                "PICTURES"
+                "pet"
             ],
             [
-                "PID"
+                "pf"
             ],
             [
-                "PIN"
+                "pg"
             ],
             [
-                "PING"
+                "ph"
             ],
             [
-                "PINK"
+                "pharmacy"
             ],
             [
-                "PIZZA"
+                "philips"
             ],
             [
-                "PK"
+                "photo"
             ],
             [
-                "PL"
+                "photography"
             ],
             [
-                "PLACE"
+                "photos"
             ],
             [
-                "PLAY"
+                "physio"
             ],
             [
-                "PLAYSTATION"
+                "piaget"
             ],
             [
-                "PLUMBING"
+                "pics"
             ],
             [
-                "PLUS"
+                "pictet"
             ],
             [
-                "PM"
+                "pictures"
             ],
             [
-                "PN"
+                "pid"
             ],
             [
-                "POHL"
+                "pin"
             ],
             [
-                "POKER"
+                "ping"
             ],
             [
-                "PORN"
+                "pink"
             ],
             [
-                "POST"
+                "pioneer"
             ],
             [
-                "PR"
+                "pizza"
             ],
             [
-                "PRAXI"
+                "pk"
             ],
             [
-                "PRESS"
+                "pl"
             ],
             [
-                "PRO"
+                "place"
             ],
             [
-                "PROD"
+                "play"
             ],
             [
-                "PRODUCTIONS"
+                "playstation"
             ],
             [
-                "PROF"
+                "plumbing"
             ],
             [
-                "PROGRESSIVE"
+                "plus"
             ],
             [
-                "PROMO"
+                "pm"
             ],
             [
-                "PROPERTIES"
+                "pn"
             ],
             [
-                "PROPERTY"
+                "pohl"
             ],
             [
-                "PROTECTION"
+                "poker"
             ],
             [
-                "PS"
+                "porn"
             ],
             [
-                "PT"
+                "post"
             ],
             [
-                "PUB"
+                "pr"
             ],
             [
-                "PW"
+                "praxi"
             ],
             [
-                "PWC"
+                "press"
             ],
             [
-                "PY"
+                "prime"
             ],
             [
-                "QA"
+                "pro"
             ],
             [
-                "QPON"
+                "prod"
             ],
             [
-                "QUEBEC"
+                "productions"
             ],
             [
-                "QUEST"
+                "prof"
             ],
             [
-                "RACING"
+                "progressive"
             ],
             [
-                "RE"
+                "promo"
             ],
             [
-                "READ"
+                "properties"
             ],
             [
-                "REALESTATE"
+                "property"
             ],
             [
-                "REALTOR"
+                "protection"
             ],
             [
-                "REALTY"
+                "ps"
             ],
             [
-                "RECIPES"
+                "pt"
             ],
             [
-                "RED"
+                "pub"
             ],
             [
-                "REDSTONE"
+                "pw"
             ],
             [
-                "REDUMBRELLA"
+                "pwc"
             ],
             [
-                "REHAB"
+                "py"
             ],
             [
-                "REISE"
+                "qa"
             ],
             [
-                "REISEN"
+                "qpon"
             ],
             [
-                "REIT"
+                "quebec"
             ],
             [
-                "REN"
+                "quest"
             ],
             [
-                "RENT"
+                "racing"
             ],
             [
-                "RENTALS"
+                "re"
             ],
             [
-                "REPAIR"
+                "read"
             ],
             [
-                "REPORT"
+                "realestate"
             ],
             [
-                "REPUBLICAN"
+                "realtor"
             ],
             [
-                "REST"
+                "realty"
             ],
             [
-                "RESTAURANT"
+                "recipes"
             ],
             [
-                "REVIEW"
+                "red"
             ],
             [
-                "REVIEWS"
+                "redstone"
             ],
             [
-                "REXROTH"
+                "redumbrella"
             ],
             [
-                "RICH"
+                "rehab"
             ],
             [
-                "RICHARDLI"
+                "reise"
             ],
             [
-                "RICOH"
+                "reisen"
             ],
             [
-                "RIO"
+                "reit"
             ],
             [
-                "RIP"
+                "ren"
             ],
             [
-                "RO"
+                "rent"
             ],
             [
-                "ROCHER"
+                "rentals"
             ],
             [
-                "ROCKS"
+                "repair"
             ],
             [
-                "RODEO"
+                "report"
             ],
             [
-                "ROOM"
+                "republican"
             ],
             [
-                "RS"
+                "rest"
             ],
             [
-                "RSVP"
+                "restaurant"
             ],
             [
-                "RU"
+                "review"
             ],
             [
-                "RUHR"
+                "reviews"
             ],
             [
-                "RUN"
+                "rexroth"
             ],
             [
-                "RW"
+                "rich"
             ],
             [
-                "RWE"
+                "richardli"
             ],
             [
-                "RYUKYU"
+                "ricoh"
             ],
             [
-                "SA"
+                "rio"
             ],
             [
-                "SAARLAND"
+                "rip"
             ],
             [
-                "SAFE"
+                "ro"
             ],
             [
-                "SAFETY"
+                "rocher"
             ],
             [
-                "SAKURA"
+                "rocks"
             ],
             [
-                "SALE"
+                "rodeo"
             ],
             [
-                "SALON"
+                "room"
             ],
             [
-                "SAMSUNG"
+                "rs"
             ],
             [
-                "SANDVIK"
+                "rsvp"
             ],
             [
-                "SANDVIKCOROMANT"
+                "ru"
             ],
             [
-                "SANOFI"
+                "ruhr"
             ],
             [
-                "SAP"
+                "run"
             ],
             [
-                "SAPO"
+                "rw"
             ],
             [
-                "SARL"
+                "rwe"
             ],
             [
-                "SAS"
+                "ryukyu"
             ],
             [
-                "SAXO"
+                "sa"
             ],
             [
-                "SB"
+                "saarland"
             ],
             [
-                "SBI"
+                "safe"
             ],
             [
-                "SBS"
+                "safety"
             ],
             [
-                "SC"
+                "sakura"
             ],
             [
-                "SCA"
+                "sale"
             ],
             [
-                "SCB"
+                "salon"
             ],
             [
-                "SCHAEFFLER"
+                "samsung"
             ],
             [
-                "SCHMIDT"
+                "sandvik"
             ],
             [
-                "SCHOLARSHIPS"
+                "sandvikcoromant"
             ],
             [
-                "SCHOOL"
+                "sanofi"
             ],
             [
-                "SCHULE"
+                "sap"
             ],
             [
-                "SCHWARZ"
+                "sapo"
             ],
             [
-                "SCIENCE"
+                "sarl"
             ],
             [
-                "SCOR"
+                "sas"
             ],
             [
-                "SCOT"
+                "save"
             ],
             [
-                "SD"
+                "saxo"
             ],
             [
-                "SE"
+                "sb"
             ],
             [
-                "SEAT"
+                "sbi"
             ],
             [
-                "SECURITY"
+                "sbs"
             ],
             [
-                "SEEK"
+                "sc"
             ],
             [
-                "SELECT"
+                "sca"
             ],
             [
-                "SENER"
+                "scb"
             ],
             [
-                "SERVICES"
+                "schaeffler"
             ],
             [
-                "SEVEN"
+                "schmidt"
             ],
             [
-                "SEW"
+                "scholarships"
             ],
             [
-                "SEX"
+                "school"
             ],
             [
-                "SEXY"
+                "schule"
             ],
             [
-                "SFR"
+                "schwarz"
             ],
             [
-                "SG"
+                "science"
             ],
             [
-                "SH"
+                "scor"
             ],
             [
-                "SHARP"
+                "scot"
             ],
             [
-                "SHAW"
+                "sd"
             ],
             [
-                "SHELL"
+                "se"
             ],
             [
-                "SHIA"
+                "seat"
             ],
             [
-                "SHIKSHA"
+                "security"
             ],
             [
-                "SHOES"
+                "seek"
             ],
             [
-                "SHOP"
+                "select"
             ],
             [
-                "SHOUJI"
+                "sener"
             ],
             [
-                "SHOW"
+                "services"
             ],
             [
-                "SHRIRAM"
+                "seven"
             ],
             [
-                "SI"
+                "sew"
             ],
             [
-                "SINA"
+                "sex"
             ],
             [
-                "SINGLES"
+                "sexy"
             ],
             [
-                "SITE"
+                "sfr"
             ],
             [
-                "SJ"
+                "sg"
             ],
             [
-                "SK"
+                "sh"
             ],
             [
-                "SKI"
+                "sharp"
             ],
             [
-                "SKIN"
+                "shaw"
             ],
             [
-                "SKY"
+                "shell"
             ],
             [
-                "SKYPE"
+                "shia"
             ],
             [
-                "SL"
+                "shiksha"
             ],
             [
-                "SM"
+                "shoes"
             ],
             [
-                "SMILE"
+                "shop"
             ],
             [
-                "SN"
+                "shouji"
             ],
             [
-                "SNCF"
+                "show"
             ],
             [
-                "SO"
+                "shriram"
             ],
             [
-                "SOCCER"
+                "si"
             ],
             [
-                "SOCIAL"
+                "silk"
             ],
             [
-                "SOFTBANK"
+                "sina"
             ],
             [
-                "SOFTWARE"
+                "singles"
             ],
             [
-                "SOHU"
+                "site"
             ],
             [
-                "SOLAR"
+                "sj"
             ],
             [
-                "SOLUTIONS"
+                "sk"
             ],
             [
-                "SONG"
+                "ski"
             ],
             [
-                "SONY"
+                "skin"
             ],
             [
-                "SOY"
+                "sky"
             ],
             [
-                "SPACE"
+                "skype"
             ],
             [
-                "SPIEGEL"
+                "sl"
             ],
             [
-                "SPOT"
+                "sm"
             ],
             [
-                "SPREADBETTING"
+                "smile"
             ],
             [
-                "SR"
+                "sn"
             ],
             [
-                "SRL"
+                "sncf"
             ],
             [
-                "ST"
+                "so"
             ],
             [
-                "STADA"
+                "soccer"
             ],
             [
-                "STAR"
+                "social"
             ],
             [
-                "STARHUB"
+                "softbank"
             ],
             [
-                "STATEBANK"
+                "software"
             ],
             [
-                "STATEFARM"
+                "sohu"
             ],
             [
-                "STATOIL"
+                "solar"
             ],
             [
-                "STC"
+                "solutions"
             ],
             [
-                "STCGROUP"
+                "song"
             ],
             [
-                "STOCKHOLM"
+                "sony"
             ],
             [
-                "STORAGE"
+                "soy"
             ],
             [
-                "STORE"
+                "space"
             ],
             [
-                "STREAM"
+                "spiegel"
             ],
             [
-                "STUDIO"
+                "spot"
             ],
             [
-                "STUDY"
+                "spreadbetting"
             ],
             [
-                "STYLE"
+                "sr"
             ],
             [
-                "SU"
+                "srl"
             ],
             [
-                "SUCKS"
+                "st"
             ],
             [
-                "SUPPLIES"
+                "stada"
             ],
             [
-                "SUPPLY"
+                "star"
             ],
             [
-                "SUPPORT"
+                "starhub"
             ],
             [
-                "SURF"
+                "statebank"
             ],
             [
-                "SURGERY"
+                "statefarm"
             ],
             [
-                "SUZUKI"
+                "statoil"
             ],
             [
-                "SV"
+                "stc"
             ],
             [
-                "SWATCH"
+                "stcgroup"
             ],
             [
-                "SWISS"
+                "stockholm"
             ],
             [
-                "SX"
+                "storage"
             ],
             [
-                "SY"
+                "store"
             ],
             [
-                "SYDNEY"
+                "stream"
             ],
             [
-                "SYMANTEC"
+                "studio"
             ],
             [
-                "SYSTEMS"
+                "study"
             ],
             [
-                "SZ"
+                "style"
             ],
             [
-                "TAB"
+                "su"
             ],
             [
-                "TAIPEI"
+                "sucks"
             ],
             [
-                "TALK"
+                "supplies"
             ],
             [
-                "TAOBAO"
+                "supply"
             ],
             [
-                "TATAMOTORS"
+                "support"
             ],
             [
-                "TATAR"
+                "surf"
             ],
             [
-                "TATTOO"
+                "surgery"
             ],
             [
-                "TAX"
+                "suzuki"
             ],
             [
-                "TAXI"
+                "sv"
             ],
             [
-                "TC"
+                "swatch"
             ],
             [
-                "TCI"
+                "swiss"
             ],
             [
-                "TD"
+                "sx"
             ],
             [
-                "TEAM"
+                "sy"
             ],
             [
-                "TECH"
+                "sydney"
             ],
             [
-                "TECHNOLOGY"
+                "symantec"
             ],
             [
-                "TEL"
+                "systems"
             ],
             [
-                "TELECITY"
+                "sz"
             ],
             [
-                "TELEFONICA"
+                "tab"
             ],
             [
-                "TEMASEK"
+                "taipei"
             ],
             [
-                "TENNIS"
+                "talk"
             ],
             [
-                "TEVA"
+                "taobao"
             ],
             [
-                "TF"
+                "tatamotors"
             ],
             [
-                "TG"
+                "tatar"
             ],
             [
-                "TH"
+                "tattoo"
             ],
             [
-                "THD"
+                "tax"
             ],
             [
-                "THEATER"
+                "taxi"
             ],
             [
-                "THEATRE"
+                "tc"
             ],
             [
-                "TICKETS"
+                "tci"
             ],
             [
-                "TIENDA"
+                "td"
             ],
             [
-                "TIFFANY"
+                "tdk"
             ],
             [
-                "TIPS"
+                "team"
             ],
             [
-                "TIRES"
+                "tech"
             ],
             [
-                "TIROL"
+                "technology"
             ],
             [
-                "TJ"
+                "tel"
             ],
             [
-                "TK"
+                "telecity"
             ],
             [
-                "TL"
+                "telefonica"
             ],
             [
-                "TM"
+                "temasek"
             ],
             [
-                "TMALL"
+                "tennis"
             ],
             [
-                "TN"
+                "teva"
             ],
             [
-                "TO"
+                "tf"
             ],
             [
-                "TODAY"
+                "tg"
             ],
             [
-                "TOKYO"
+                "th"
             ],
             [
-                "TOOLS"
+                "thd"
             ],
             [
-                "TOP"
+                "theater"
             ],
             [
-                "TORAY"
+                "theatre"
             ],
             [
-                "TOSHIBA"
+                "tickets"
             ],
             [
-                "TOTAL"
+                "tienda"
             ],
             [
-                "TOURS"
+                "tiffany"
             ],
             [
-                "TOWN"
+                "tips"
             ],
             [
-                "TOYOTA"
+                "tires"
             ],
             [
-                "TOYS"
+                "tirol"
             ],
             [
-                "TR"
+                "tj"
             ],
             [
-                "TRADE"
+                "tk"
             ],
             [
-                "TRADING"
+                "tl"
             ],
             [
-                "TRAINING"
+                "tm"
             ],
             [
-                "TRAVEL"
+                "tmall"
             ],
             [
-                "TRAVELERS"
+                "tn"
             ],
             [
-                "TRAVELERSINSURANCE"
+                "to"
             ],
             [
-                "TRUST"
+                "today"
             ],
             [
-                "TRV"
+                "tokyo"
             ],
             [
-                "TT"
+                "tools"
             ],
             [
-                "TUBE"
+                "top"
             ],
             [
-                "TUI"
+                "toray"
             ],
             [
-                "TUNES"
+                "toshiba"
             ],
             [
-                "TUSHU"
+                "total"
             ],
             [
-                "TV"
+                "tours"
             ],
             [
-                "TVS"
+                "town"
             ],
             [
-                "TW"
+                "toyota"
             ],
             [
-                "TZ"
+                "toys"
             ],
             [
-                "UA"
+                "tr"
             ],
             [
-                "UBS"
+                "trade"
             ],
             [
-                "UG"
+                "trading"
             ],
             [
-                "UK"
+                "training"
             ],
             [
-                "UNICOM"
+                "travel"
             ],
             [
-                "UNIVERSITY"
+                "travelers"
             ],
             [
-                "UNO"
+                "travelersinsurance"
             ],
             [
-                "UOL"
+                "trust"
             ],
             [
-                "US"
+                "trv"
             ],
             [
-                "UY"
+                "tt"
             ],
             [
-                "UZ"
+                "tube"
             ],
             [
-                "VA"
+                "tui"
             ],
             [
-                "VACATIONS"
+                "tunes"
             ],
             [
-                "VANA"
+                "tushu"
             ],
             [
-                "VC"
+                "tv"
             ],
             [
-                "VE"
+                "tvs"
             ],
             [
-                "VEGAS"
+                "tw"
             ],
             [
-                "VENTURES"
+                "tz"
             ],
             [
-                "VERISIGN"
+                "ua"
             ],
             [
-                "VERSICHERUNG"
+                "ubs"
             ],
             [
-                "VET"
+                "ug"
             ],
             [
-                "VG"
+                "uk"
             ],
             [
-                "VI"
+                "unicom"
             ],
             [
-                "VIAJES"
+                "university"
             ],
             [
-                "VIDEO"
+                "uno"
             ],
             [
-                "VIG"
+                "uol"
             ],
             [
-                "VIKING"
+                "ups"
             ],
             [
-                "VILLAS"
+                "us"
             ],
             [
-                "VIN"
+                "uy"
             ],
             [
-                "VIP"
+                "uz"
             ],
             [
-                "VIRGIN"
+                "va"
             ],
             [
-                "VISION"
+                "vacations"
             ],
             [
-                "VISTA"
+                "vana"
             ],
             [
-                "VISTAPRINT"
+                "vc"
             ],
             [
-                "VIVA"
+                "ve"
             ],
             [
-                "VLAANDEREN"
+                "vegas"
             ],
             [
-                "VN"
+                "ventures"
             ],
             [
-                "VODKA"
+                "verisign"
             ],
             [
-                "VOLKSWAGEN"
+                "versicherung"
             ],
             [
-                "VOTE"
+                "vet"
             ],
             [
-                "VOTING"
+                "vg"
             ],
             [
-                "VOTO"
+                "vi"
             ],
             [
-                "VOYAGE"
+                "viajes"
             ],
             [
-                "VU"
+                "video"
             ],
             [
-                "VUELOS"
+                "vig"
             ],
             [
-                "WALES"
+                "viking"
             ],
             [
-                "WALTER"
+                "villas"
             ],
             [
-                "WANG"
+                "vin"
             ],
             [
-                "WANGGOU"
+                "vip"
             ],
             [
-                "WARMAN"
+                "virgin"
             ],
             [
-                "WATCH"
+                "vision"
             ],
             [
-                "WATCHES"
+                "vista"
             ],
             [
-                "WEATHER"
+                "vistaprint"
             ],
             [
-                "WEATHERCHANNEL"
+                "viva"
             ],
             [
-                "WEBCAM"
+                "vlaanderen"
             ],
             [
-                "WEBER"
+                "vn"
             ],
             [
-                "WEBSITE"
+                "vodka"
             ],
             [
-                "WED"
+                "volkswagen"
             ],
             [
-                "WEDDING"
+                "vote"
             ],
             [
-                "WEIBO"
+                "voting"
             ],
             [
-                "WEIR"
+                "voto"
             ],
             [
-                "WF"
+                "voyage"
             ],
             [
-                "WHOSWHO"
+                "vu"
             ],
             [
-                "WIEN"
+                "vuelos"
             ],
             [
-                "WIKI"
+                "wales"
             ],
             [
-                "WILLIAMHILL"
+                "walter"
             ],
             [
-                "WIN"
+                "wang"
             ],
             [
-                "WINDOWS"
+                "wanggou"
             ],
             [
-                "WINE"
+                "warman"
             ],
             [
-                "WME"
+                "watch"
             ],
             [
-                "WOLTERSKLUWER"
+                "watches"
             ],
             [
-                "WORK"
+                "weather"
             ],
             [
-                "WORKS"
+                "weatherchannel"
             ],
             [
-                "WORLD"
+                "webcam"
             ],
             [
-                "WS"
+                "weber"
             ],
             [
-                "WTC"
+                "website"
             ],
             [
-                "WTF"
+                "wed"
             ],
             [
-                "XBOX"
+                "wedding"
             ],
             [
-                "XEROX"
+                "weibo"
             ],
             [
-                "XIHUAN"
+                "weir"
             ],
             [
-                "XIN"
+                "wf"
             ],
             [
-                "XN--11B4C3D"
+                "whoswho"
             ],
             [
-                "XN--1CK2E1B"
+                "wien"
             ],
             [
-                "XN--1QQW23A"
+                "wiki"
             ],
             [
-                "XN--30RR7Y"
+                "williamhill"
             ],
             [
-                "XN--3BST00M"
+                "win"
             ],
             [
-                "XN--3DS443G"
+                "windows"
             ],
             [
-                "XN--3E0B707E"
+                "wine"
             ],
             [
-                "XN--3PXU8K"
+                "wme"
             ],
             [
-                "XN--42C2D9A"
+                "wolterskluwer"
             ],
             [
-                "XN--45BRJ9C"
+                "work"
             ],
             [
-                "XN--45Q11C"
+                "works"
             ],
             [
-                "XN--4GBRIM"
+                "world"
             ],
             [
-                "XN--55QW42G"
+                "ws"
             ],
             [
-                "XN--55QX5D"
+                "wtc"
             ],
             [
-                "XN--5TZM5G"
+                "wtf"
             ],
             [
-                "XN--6FRZ82G"
+                "xbox"
             ],
             [
-                "XN--6QQ986B3XL"
+                "xerox"
             ],
             [
-                "XN--80ADXHKS"
+                "xihuan"
             ],
             [
-                "XN--80AO21A"
+                "xin"
             ],
             [
-                "XN--80ASEHDB"
+                "xn--11b4c3d"
             ],
             [
-                "XN--80ASWG"
+                "xn--1ck2e1b"
             ],
             [
-                "XN--8Y0A063A"
+                "xn--1qqw23a"
             ],
             [
-                "XN--90A3AC"
+                "xn--30rr7y"
             ],
             [
-                "XN--90AIS"
+                "xn--3bst00m"
             ],
             [
-                "XN--9DBQ2A"
+                "xn--3ds443g"
             ],
             [
-                "XN--9ET52U"
+                "xn--3e0b707e"
             ],
             [
-                "XN--9KRT00A"
+                "xn--3pxu8k"
             ],
             [
-                "XN--B4W605FERD"
+                "xn--42c2d9a"
             ],
             [
-                "XN--BCK1B9A5DRE4C"
+                "xn--45brj9c"
             ],
             [
-                "XN--C1AVG"
+                "xn--45q11c"
             ],
             [
-                "XN--C2BR7G"
+                "xn--4gbrim"
             ],
             [
-                "XN--CCK2B3B"
+                "xn--55qw42g"
             ],
             [
-                "XN--CG4BKI"
+                "xn--55qx5d"
             ],
             [
-                "XN--CLCHC0EA0B2G2A9GCD"
+                "xn--5tzm5g"
             ],
             [
-                "XN--CZR694B"
+                "xn--6frz82g"
             ],
             [
-                "XN--CZRS0T"
+                "xn--6qq986b3xl"
             ],
             [
-                "XN--CZRU2D"
+                "xn--80adxhks"
             ],
             [
-                "XN--D1ACJ3B"
+                "xn--80ao21a"
             ],
             [
-                "XN--D1ALF"
+                "xn--80asehdb"
             ],
             [
-                "XN--E1A4C"
+                "xn--80aswg"
             ],
             [
-                "XN--ECKVDTC9D"
+                "xn--8y0a063a"
             ],
             [
-                "XN--EFVY88H"
+                "xn--90a3ac"
             ],
             [
-                "XN--ESTV75G"
+                "xn--90ais"
             ],
             [
-                "XN--FCT429K"
+                "xn--9dbq2a"
             ],
             [
-                "XN--FHBEI"
+                "xn--9et52u"
             ],
             [
-                "XN--FIQ228C5HS"
+                "xn--9krt00a"
             ],
             [
-                "XN--FIQ64B"
+                "xn--b4w605ferd"
             ],
             [
-                "XN--FIQS8S"
+                "xn--bck1b9a5dre4c"
             ],
             [
-                "XN--FIQZ9S"
+                "xn--c1avg"
             ],
             [
-                "XN--FJQ720A"
+                "xn--c2br7g"
             ],
             [
-                "XN--FLW351E"
+                "xn--cck2b3b"
             ],
             [
-                "XN--FPCRJ9C3D"
+                "xn--cg4bki"
             ],
             [
-                "XN--FZC2C9E2C"
+                "xn--clchc0ea0b2g2a9gcd"
             ],
             [
-                "XN--FZYS8D69UVGM"
+                "xn--czr694b"
             ],
             [
-                "XN--G2XX48C"
+                "xn--czrs0t"
             ],
             [
-                "XN--GCKR3F0F"
+                "xn--czru2d"
             ],
             [
-                "XN--GECRJ9C"
+                "xn--d1acj3b"
             ],
             [
-                "XN--H2BRJ9C"
+                "xn--d1alf"
             ],
             [
-                "XN--HXT814E"
+                "xn--e1a4c"
             ],
             [
-                "XN--I1B6B1A6A2E"
+                "xn--eckvdtc9d"
             ],
             [
-                "XN--IMR513N"
+                "xn--efvy88h"
             ],
             [
-                "XN--IO0A7I"
+                "xn--estv75g"
             ],
             [
-                "XN--J1AEF"
+                "xn--fct429k"
             ],
             [
-                "XN--J1AMH"
+                "xn--fhbei"
             ],
             [
-                "XN--J6W193G"
+                "xn--fiq228c5hs"
             ],
             [
-                "XN--JLQ61U9W7B"
+                "xn--fiq64b"
             ],
             [
-                "XN--JVR189M"
+                "xn--fiqs8s"
             ],
             [
-                "XN--KCRX77D1X4A"
+                "xn--fiqz9s"
             ],
             [
-                "XN--KPRW13D"
+                "xn--fjq720a"
             ],
             [
-                "XN--KPRY57D"
+                "xn--flw351e"
             ],
             [
-                "XN--KPU716F"
+                "xn--fpcrj9c3d"
             ],
             [
-                "XN--KPUT3I"
+                "xn--fzc2c9e2c"
             ],
             [
-                "XN--L1ACC"
+                "xn--fzys8d69uvgm"
             ],
             [
-                "XN--LGBBAT1AD8J"
+                "xn--g2xx48c"
             ],
             [
-                "XN--MGB9AWBF"
+                "xn--gckr3f0f"
             ],
             [
-                "XN--MGBA3A3EJT"
+                "xn--gecrj9c"
             ],
             [
-                "XN--MGBA3A4F16A"
+                "xn--h2brj9c"
             ],
             [
-                "XN--MGBA7C0BBN0A"
+                "xn--hxt814e"
             ],
             [
-                "XN--MGBAAM7A8H"
+                "xn--i1b6b1a6a2e"
             ],
             [
-                "XN--MGBAB2BD"
+                "xn--imr513n"
             ],
             [
-                "XN--MGBAYH7GPA"
+                "xn--io0a7i"
             ],
             [
-                "XN--MGBB9FBPOB"
+                "xn--j1aef"
             ],
             [
-                "XN--MGBBH1A71E"
+                "xn--j1amh"
             ],
             [
-                "XN--MGBC0A9AZCG"
+                "xn--j6w193g"
             ],
             [
-                "XN--MGBCA7DZDO"
+                "xn--jlq61u9w7b"
             ],
             [
-                "XN--MGBERP4A5D4AR"
+                "xn--jvr189m"
             ],
             [
-                "XN--MGBPL2FH"
+                "xn--kcrx77d1x4a"
             ],
             [
-                "XN--MGBT3DHD"
+                "xn--kprw13d"
             ],
             [
-                "XN--MGBTX2B"
+                "xn--kpry57d"
             ],
             [
-                "XN--MGBX4CD0AB"
+                "xn--kpu716f"
             ],
             [
-                "XN--MIX891F"
+                "xn--kput3i"
             ],
             [
-                "XN--MK1BU44C"
+                "xn--l1acc"
             ],
             [
-                "XN--MXTQ1M"
+                "xn--lgbbat1ad8j"
             ],
             [
-                "XN--NGBC5AZD"
+                "xn--mgb9awbf"
             ],
             [
-                "XN--NGBE9E0A"
+                "xn--mgba3a3ejt"
             ],
             [
-                "XN--NODE"
+                "xn--mgba3a4f16a"
             ],
             [
-                "XN--NQV7F"
+                "xn--mgba7c0bbn0a"
             ],
             [
-                "XN--NQV7FS00EMA"
+                "xn--mgbaam7a8h"
             ],
             [
-                "XN--NYQY26A"
+                "xn--mgbab2bd"
             ],
             [
-                "XN--O3CW4H"
+                "xn--mgbayh7gpa"
             ],
             [
-                "XN--OGBPF8FL"
+                "xn--mgbb9fbpob"
             ],
             [
-                "XN--P1ACF"
+                "xn--mgbbh1a71e"
             ],
             [
-                "XN--P1AI"
+                "xn--mgbc0a9azcg"
             ],
             [
-                "XN--PBT977C"
+                "xn--mgbca7dzdo"
             ],
             [
-                "XN--PGBS0DH"
+                "xn--mgberp4a5d4ar"
             ],
             [
-                "XN--PSSY2U"
+                "xn--mgbpl2fh"
             ],
             [
-                "XN--Q9JYB4C"
+                "xn--mgbt3dhd"
             ],
             [
-                "XN--QCKA1PMC"
+                "xn--mgbtx2b"
             ],
             [
-                "XN--QXAM"
+                "xn--mgbx4cd0ab"
             ],
             [
-                "XN--RHQV96G"
+                "xn--mix891f"
             ],
             [
-                "XN--ROVU88B"
+                "xn--mk1bu44c"
             ],
             [
-                "XN--S9BRJ9C"
+                "xn--mxtq1m"
             ],
             [
-                "XN--SES554G"
+                "xn--ngbc5azd"
             ],
             [
-                "XN--T60B56A"
+                "xn--ngbe9e0a"
             ],
             [
-                "XN--TCKWE"
+                "xn--node"
             ],
             [
-                "XN--UNUP4Y"
+                "xn--nqv7f"
             ],
             [
-                "XN--VERMGENSBERATER-CTB"
+                "xn--nqv7fs00ema"
             ],
             [
-                "XN--VERMGENSBERATUNG-PWB"
+                "xn--nyqy26a"
             ],
             [
-                "XN--VHQUV"
+                "xn--o3cw4h"
             ],
             [
-                "XN--VUQ861B"
+                "xn--ogbpf8fl"
             ],
             [
-                "XN--W4R85EL8FHU5DNRA"
+                "xn--p1acf"
             ],
             [
-                "XN--W4RS40L"
+                "xn--p1ai"
             ],
             [
-                "XN--WGBH1C"
+                "xn--pbt977c"
             ],
             [
-                "XN--WGBL6A"
+                "xn--pgbs0dh"
             ],
             [
-                "XN--XHQ521B"
+                "xn--pssy2u"
             ],
             [
-                "XN--XKC2AL3HYE2A"
+                "xn--q9jyb4c"
             ],
             [
-                "XN--XKC2DL3A5EE0H"
+                "xn--qcka1pmc"
             ],
             [
-                "XN--Y9A3AQ"
+                "xn--qxam"
             ],
             [
-                "XN--YFRO4I67O"
+                "xn--rhqv96g"
             ],
             [
-                "XN--YGBI2AMMX"
+                "xn--rovu88b"
             ],
             [
-                "XN--ZFR164B"
+                "xn--s9brj9c"
             ],
             [
-                "XPERIA"
+                "xn--ses554g"
             ],
             [
-                "XXX"
+                "xn--t60b56a"
             ],
             [
-                "XYZ"
+                "xn--tckwe"
             ],
             [
-                "YACHTS"
+                "xn--unup4y"
             ],
             [
-                "YAHOO"
+                "xn--vermgensberater-ctb"
             ],
             [
-                "YAMAXUN"
+                "xn--vermgensberatung-pwb"
             ],
             [
-                "YANDEX"
+                "xn--vhquv"
             ],
             [
-                "YE"
+                "xn--vuq861b"
             ],
             [
-                "YODOBASHI"
+                "xn--w4r85el8fhu5dnra"
             ],
             [
-                "YOGA"
+                "xn--w4rs40l"
             ],
             [
-                "YOKOHAMA"
+                "xn--wgbh1c"
             ],
             [
-                "YOU"
+                "xn--wgbl6a"
             ],
             [
-                "YOUTUBE"
+                "xn--xhq521b"
             ],
             [
-                "YT"
+                "xn--xkc2al3hye2a"
             ],
             [
-                "YUN"
+                "xn--xkc2dl3a5ee0h"
             ],
             [
-                "ZA"
+                "xn--y9a3aq"
             ],
             [
-                "ZARA"
+                "xn--yfro4i67o"
             ],
             [
-                "ZERO"
+                "xn--ygbi2ammx"
             ],
             [
-                "ZIP"
+                "xn--zfr164b"
             ],
             [
-                "ZM"
+                "xperia"
             ],
             [
-                "ZONE"
+                "xxx"
             ],
             [
-                "ZUERICH"
+                "xyz"
             ],
             [
-                "ZW"
+                "yachts"
+            ],
+            [
+                "yahoo"
+            ],
+            [
+                "yamaxun"
+            ],
+            [
+                "yandex"
+            ],
+            [
+                "ye"
+            ],
+            [
+                "yodobashi"
+            ],
+            [
+                "yoga"
+            ],
+            [
+                "yokohama"
+            ],
+            [
+                "you"
+            ],
+            [
+                "youtube"
+            ],
+            [
+                "yt"
+            ],
+            [
+                "yun"
+            ],
+            [
+                "za"
+            ],
+            [
+                "zappos"
+            ],
+            [
+                "zara"
+            ],
+            [
+                "zero"
+            ],
+            [
+                "zip"
+            ],
+            [
+                "zm"
+            ],
+            [
+                "zone"
+            ],
+            [
+                "zuerich"
+            ],
+            [
+                "zw"
             ]
         ]
     ]

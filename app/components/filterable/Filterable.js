@@ -22,12 +22,7 @@ class Filterable extends React.Component {
     
     render() {
         
-        const premium = ['com', 'net', 'org', 'io'].map((d) => [d.toUpperCase()]);
-        
-        const { all } = this.props;
-        
-        const recent = all.filter((d) => d.length > 1);
-        const novelty = all.filter((d) => premium.indexOf(d) === -1 && d.length === 1);
+        const { domains } = this.props;
         
         return (
             <div>
@@ -39,48 +34,14 @@ class Filterable extends React.Component {
                     />
                 </div>
                 <div className="domain-container">
-                    <h1 className="domain-subheading">Premium</h1>
-                    <div className="domain-container-premium">
-                        {premium.length === 0 ? <div>No Results</div> : 
-                        premium.map((d, i) => {
-                            return (
-                                <Domain 
-                                    search={this.props.search}
-                                    handleClick={this.handleClick} 
-                                    key={i} 
-                                    domain={d} 
-                                />
-                            )
-                        })}
-                    </div>
-                    <h1 className="domain-subheading">Recent</h1>
-                    <div className="domain-container-recent">
-                        {recent.length === 0 ? <div>No Results</div> : 
-                        recent.map((d, i) => {
-                            return (
-                                <Domain
-                                    search={this.props.search}
-                                    handleClick={this.handleClick} 
-                                    key={i} 
-                                    domain={d} 
-                                />
-                            )
-                        })}
-                    </div>
-                    <h1 className="domain-subheading">Novelty</h1>
-                    <div className="domain-container-novelty">
-                        {novelty.length === 0 ? <div>No Results</div> : 
-                        novelty.map((d, i) => {
-                            return (
-                                <Domain 
-                                    search={this.props.search}
-                                    handleClick={this.handleClick} 
-                                    key={i} 
-                                    domain={d} 
-                                />
-                            )
-                        })}
-                    </div>
+                    {domains.map((d, i) => 
+                        <Domain
+                            search={this.props.search}
+                            handleClick={this.handleClick} 
+                            key={i} 
+                            domain={d} 
+                        />
+                    )}
                 </div>
             </div>
         )

@@ -1,20 +1,11 @@
-var $ = require('cheerio');
-var _ = require('underscore');
+const express = require('express');
+const bodyParser = require('body-parser');
+const path = require('path');
 
-module.exports = [
-    [   
-        // get new domains
-        'https://www.orsn.org/en/tech/tld/',
-        (body) => {
-            var html = $(body).find('#tldinfo table td').text();
-            
-            return _.compact(html.split('.'))
-                .map((d) => d.toUpperCase().split(' ')).reverse();
-        }
-    ],
-    [
-        // get rest of domains
-        'http://data.iana.org/TLD/tlds-alpha-by-domain.txt',
-        (body) => _.compact(body.split('\n')).map((d => [d])).slice(1)
-    ]
-];
+module.exports = (app, filePath) => {
+    app.use(bodyParser.urlencoded({ extended: true }));
+    app.use(bodyParser.json());
+    
+    // Enable Express to get dependency scripts
+    app.use(express.static(path.join(__dirname, '..' + filePath)));
+}

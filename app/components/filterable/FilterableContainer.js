@@ -1,29 +1,17 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Filterable from './Filterable';
-import {getAvailability} from './FilterableReducer';
+import { getAvailability } from '../../actions/domain';
+import { getVisibleDomains } from '../../reducers/domain';
 
-const mapStateToProps = (state) => {
-    return {
-        search: state.search,
-        all: state.all
-    }
-}
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        getAvailability: (str) => {
-            dispatch(getAvailability(str));
-        },
-        onCheckbox: (obj) => {
-            console.log(obj)
-        }
-    }
-}
+const mapStateToProps = (state) => ({
+    search: state.search,
+    domains: getVisibleDomains(state)
+});
 
 const FilterableContainer = connect(
     mapStateToProps,
-    mapDispatchToProps
+    { getAvailability }
 )(Filterable);
 
 export default FilterableContainer;

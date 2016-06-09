@@ -2,11 +2,11 @@ import React from 'react';
 
 class Domain extends React.Component {
     render() {
-        const {domain, search} = this.props;
+        const {domain} = this.props;
         
         return (
             <div className="domain" onClick={() => this.props.handleClick(domain)}>
-                <div>{search + '.' + domain[0].toLowerCase()}</div>
+                <div>{'.' + domain[0]}</div>
                 {domain[1] ? <div className="domain-date">{domain[1]}</div> : '' }
             </div>
         );

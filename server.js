@@ -1,19 +1,14 @@
-var express = require('express');
-var routes = require('./server/routes');
-var bodyParser = require('body-parser');
+const express = require('express');
+const routes = require('./server/routes');
+const config = require('./server/config');
 
-var app = express();
-var env = process.env.NODE_ENV || 'prod';
+const app = express();
+const env = process.env.NODE_ENV || 'prod';
 
-var port = 3000;
+const port = 3000;
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+config(app, '/public');
 
-// Enable Express to get dependency scripts
-app.use(express.static(__dirname + '/public'));
-
-// expose API
 routes(app);
 
 app.listen(port, (error) => {

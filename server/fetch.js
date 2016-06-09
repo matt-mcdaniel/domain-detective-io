@@ -2,7 +2,7 @@ var fetch = require('isomorphic-fetch');
 var fs = require('fs');
 var _ = require('underscore');
 var Promise = require('promise');
-var urls = require('./config');
+var urls = require('./scrape');
 
 function fetchText(url){
     return fetch(url[0])

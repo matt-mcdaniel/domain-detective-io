@@ -5,20 +5,12 @@ import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import createLogger from 'redux-logger';
 import FilterableContainer from './components/filterable/FilterableContainer';
-import {combineReducers} from 'redux';
-
-// Reducers
-import {domains} from './components/filterable/FilterableReducer';
+import reducers from './reducers/root';
 
 const loggerMiddleware = createLogger();
 
-// const reducers = combineReducers({
-//     domains,
-//     search
-// });
-
 export const store = createStore(
-    domains,
+    reducers,
 	applyMiddleware(
 		thunk,
 		loggerMiddleware
