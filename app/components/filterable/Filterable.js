@@ -10,6 +10,7 @@ class Filterable extends React.Component {
         super();
         
         this.handleClick = this.handleClick.bind(this);
+        
     }
     
     handleClick(...args){
@@ -18,6 +19,11 @@ class Filterable extends React.Component {
     
     onCheckbox(obj) {
         this.props.onCheckbox(obj);
+    }
+    
+    componentWillMount(){
+        console.log('props:', this.props);
+        this.props.receiveDomains;
     }
     
     render() {

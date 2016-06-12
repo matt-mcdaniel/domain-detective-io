@@ -1,3 +1,4 @@
+import data from '../../data/domains.json!json';
 import 'whatwg-fetch';
 
 const request = new Request('/api', {
@@ -8,6 +9,14 @@ const request = new Request('/api', {
     }),
     mode: 'cors'
 });
+
+// Initialize with Data
+export const receiveDomains = () => {
+    dispatch({
+        type: 'RECEIVE_DOMAINS',
+        domains: data.domains
+    });
+}
 
 // Action Creators
 export function getAvailability(str) {

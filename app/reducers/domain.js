@@ -1,13 +1,11 @@
-import data from '../../data/domains.json!json';
-
 // Actions
 const SEARCH = 'SEARCH';
+const RECEIVE_DOMAINS = 'RECEIVE_DOMAINS';
 
-// Initial State
-const initialState = data.domains[0].concat(data.domains[1]);
-
-export default (state = initialState, action) => {
+export default (state = {}, action) => {
     switch(action.type) {
+        case RECEIVE_DOMAINS:
+            return action.domains;
         case SEARCH:
         default:
             return state; 
