@@ -7,7 +7,7 @@ class Filter extends React.Component {
         return (
             <div className="filter__container">
                 <SearchContainer />
-                <FilterOptions />
+                {/*<FilterOptions />*/}
             </div>
         );
     }

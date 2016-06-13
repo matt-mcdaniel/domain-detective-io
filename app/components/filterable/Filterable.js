@@ -14,7 +14,8 @@ class Filterable extends React.Component {
     }
     
     handleClick(...args){
-        this.props.getAvailability(this.props.search + '.' + args[0]);
+        console.log('click%s', 'color:blue');
+        //this.props.getAvailability(this.props.search + '.' + args[0]);
     }
     
     onCheckbox(obj) {
@@ -22,13 +23,13 @@ class Filterable extends React.Component {
     }
     
     componentWillMount(){
-        console.log('props:', this.props);
-        this.props.receiveDomains;
+        //console.log('props:', this.props);
+        //this.props.receiveDomains;
     }
     
     render() {
         
-        const { domains } = this.props;
+        const { popular, novelty } = this.props;
         
         return (
             <div>
@@ -39,8 +40,20 @@ class Filterable extends React.Component {
                         onSearch={this.onSearch} 
                     />
                 </div>
+                <h3 className="domain-section-title">Popular</h3>
                 <div className="domain-container">
-                    {domains.map((d, i) => 
+                    {popular.map((d, i) => 
+                        <Domain
+                            search={this.props.search}
+                            handleClick={this.handleClick} 
+                            key={i} 
+                            domain={d} 
+                        />
+                    )}
+                </div>
+                <h3 className="domain-section-title">Novelty</h3>
+                <div className="domain-container">
+                    {novelty.map((d, i) => 
                         <Domain
                             search={this.props.search}
                             handleClick={this.handleClick} 

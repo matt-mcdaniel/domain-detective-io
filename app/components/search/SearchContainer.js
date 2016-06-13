@@ -3,15 +3,15 @@ import Search from './Search';
 import {connect} from 'react-redux';
 
 const mapStateToProps = (state) => {
-    return {};
+    return state;
 }
 
 const mapDispatchToProps = (dispatch) => {
     return {
         search: (str) => {
             dispatch({
-                type: 'SEARCH',
-                text: str
+                type: 'search',
+                text: str.trim()
             });
         }
     }

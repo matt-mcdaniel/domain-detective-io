@@ -25,7 +25,6 @@ module.exports = function(app) {
         var domain = req.body.domain;
         var url = 'https://api.godaddy.com/v1/domains/available?domain=' + domain;
         
-        
         requestHeaders.url = url;
         
         console.log(url, req.body);

@@ -21,7 +21,7 @@ const fetchConfig = [
         // get rest of domains
         'http://data.iana.org/TLD/tlds-alpha-by-domain.txt',
         (body) => _.compact(
-            body.split('\n')).map((d => [d.toLowerCase()])
+            body.split('\n').map(d => [d.toLowerCase()]).filter(d => popular.indexOf(d[0]) === -1)
         ).slice(1)
     ]
 ];

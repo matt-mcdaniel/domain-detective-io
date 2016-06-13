@@ -6,8 +6,8 @@ class Domain extends React.Component {
         
         return (
             <div className="domain" onClick={() => this.props.handleClick(domain)}>
-                <div>{'.' + domain[0]}</div>
-                {domain[1] ? <div className="domain-date">{domain[1]}</div> : '' }
+                <div>{'.' + domain.name}</div>
+                {domain.date ? <div className="domain-date">{domain.date}</div> : '' }
             </div>
         );
     }
