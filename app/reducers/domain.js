@@ -1,41 +1,33 @@
-import data from '../../data/domains.json!json';
+import popular from '../config/popularDomains';
 
-// Action Constants
-const SEARCH = 'SEARCH';
-const RECEIVE_DOMAINS = 'ALL';
-
-const initialState = data.domains;
-
-const popular = ['com', 'io', 'net', 'org'];
-
-// Selector
-// Prepare State for View
-export default (state = initialState, action) => {
+// Reducer
+export default (state = [], action) => {
     switch (action.type) {
-        case 'search':
-            return initialState.filter((d) => {
-                return d.name.match(action.text) || action.text.match(d.name)
-            });
+        case 'UPDATE_POPULAR':
+            return [
+                ...action.domains,
+                ...state.slice(4)
+            ];
         default:
-            return initialState;
+            return state;
     }
 }
 
-
+// Selector
+// Prepare State for View
 export const getVisibleDomains = (state, filter) => {
     switch (filter) {
         case 'all':
-            return state.domains;
+            return state;
         case 'popular':
             return [
-                ...state.domains
-                    .filter((d) => popular.indexOf(d.name) > -1)
+                ...state.slice(0, popular.length)
             ];
         case 'novelty':
             return [
-                ...state.domains.filter((d) => popular.indexOf(d.name) === -1)
+                ...state.slice(popular.length)
             ]
         default:
-            return state.domains;
+            return state;
     }
 }

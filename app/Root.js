@@ -5,12 +5,15 @@ import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import createLogger from 'redux-logger';
 import FilterableContainer from './components/filterable/FilterableContainer';
-import reducers from './reducers/root';
+import domains from './reducers/domain';
+import data from '../../data/domains.json!json';
 
+const initialState = data.domains;
 const loggerMiddleware = createLogger();
 
 export const store = createStore(
-    reducers,
+    domains,
+    initialState,
 	applyMiddleware(
 		thunk,
 		loggerMiddleware

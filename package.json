@@ -52,6 +52,7 @@
       "isomorphic-fetch": "npm:isomorphic-fetch@^2.2.1",
       "json": "github:systemjs/plugin-json@^0.1.2",
       "lodash": "npm:lodash@^4.13.1",
+      "promise": "npm:promise@^7.1.1",
       "react": "npm:react@^15.0.0",
       "react-dom": "npm:react-dom@^15.0.0",
       "react-redux": "npm:react-redux@^4.4.5",

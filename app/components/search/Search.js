@@ -1,5 +1,7 @@
 import React from 'react';
-import { debounce } from 'lodash';
+import {debounce} from 'lodash';
+import {store} from '../../Root';
+import {search} from '../../actions/domain';
 
 class Search extends React.Component {
     constructor() {
@@ -11,7 +13,7 @@ class Search extends React.Component {
     }
     
     handleDebounce() {
-        this.props.search(this.state.query);
+        store.dispatch(search(this.state.query));
     }
     
     onChange(e) {

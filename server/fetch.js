@@ -33,8 +33,10 @@ const fetchReduce = (urls) => {
         .concat(urls[0], urls[1])
         .map((u) => {
             return {
-                name: u[0],
-                date: u[1] || null
+                domain: u[0],
+                date: u[1] || null,
+                available: null,
+                price: null
             }
         })
 }

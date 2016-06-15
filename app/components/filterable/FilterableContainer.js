@@ -13,16 +13,8 @@ const mapStateToProps = (state) => {
     }
 };
 
-const mapDispatchToProps = (state) => {
-    return dispatch => {
-        return {};
-    }
-}
-
-
 const FilterableContainer = connect(
-    mapStateToProps,
-    mapDispatchToProps
+    mapStateToProps
 )(Filterable);
 
 export default FilterableContainer;

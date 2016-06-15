@@ -93,7 +93,8 @@
           flex: 1;
   text-align: center;
   padding: 15px;
-  border: 2px solid #cecece; }
+  border: 1px solid #cecece;
+  position: relative; }
   @media (max-width: 500px) {
     .domain {
       padding: 10px;
@@ -104,20 +105,25 @@
   font-weight: 300;
   font-size: 11px; }
 
-.domain-container-premium .domain {
-  border: 1px solid #007eff; }
+.domain.available {
+  background-color: rgba(39, 174, 96, 0.2);
+  border: 1px solid #27ae60; }
 
-.domain-container-recent .domain {
-  border: 1px solid #007eff;
-  background-color: white; }
+.domain.unavailable {
+  background-color: rgba(192, 57, 43, 0.2);
+  border: 1px solid #c0392b; }
 
-.domain-container-novelty .domain {
-  border: 1px solid #FFA040;
-  background-color: white; }
+.availability {
+  position: absolute;
+  top: -15px;
+  font-size: 10px;
+  left: 0; }
 
-.domain-container-all .domain {
-  border: 1px solid #FFA040;
-  background-color: white; }
+.availability.available {
+  color: #27ae60; }
+
+.availability.unavailable {
+  color: #c0392b; }
 
 .logo__container {
   display: inline-block;
