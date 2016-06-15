@@ -6,7 +6,7 @@ import thunk from 'redux-thunk';
 import createLogger from 'redux-logger';
 import FilterableContainer from './components/filterable/FilterableContainer';
 import domains from './reducers/domain';
-import data from '../../data/domains.json!json';
+import data from '../data/domains.json!json';
 
 const initialState = data.domains;
 const loggerMiddleware = createLogger();
